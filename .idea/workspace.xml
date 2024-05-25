@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d9cf08c6-f1f3-4abd-aa3c-960a8c81f59d" name="Changes" comment="added news 23-050-2024">
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/directions.html" beforeDir="false" afterPath="$PROJECT_DIR$/directions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/about/activity.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/activity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/about/anthem.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/anthem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/about/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/about/leadership.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/leadership.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/about/position.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/position.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/about/structure.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/structure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/cherkasy.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/cherkasy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/chernigiv.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/chernigiv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/chernivtsi.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/chernivtsi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/dnipro.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/dnipro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/donetsk.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/donetsk.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/harkiv.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/harkiv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/herson.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/herson.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/hmelnutskiy.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/hmelnutskiy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/ivanofrakivsk.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/ivanofrakivsk.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/kirovograd.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/kirovograd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/luhansk.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/luhansk.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/lviv.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/lviv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/mukolaiv.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/mukolaiv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/odesa.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/odesa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/poltava.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/poltava.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/qrım.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/qrım.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/rivne.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/rivne.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/sumy.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/sumy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/ternopil.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/ternopil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/vinnytsia.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/vinnytsia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/volhynia.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/volhynia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/zakarpata.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/zakarpata.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/zaporizha.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/zaporizha.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/zhytomer.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/zhytomer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches_of_du.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches_of_du.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/directions/edition.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/directions/edition.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/directions/government_procurement.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/directions/government_procurement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/directions/international_activity.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/directions/international_activity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/directions/land_survey.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/directions/land_survey.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/directions/monitoring_objects.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/directions/monitoring_objects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/npa.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/npa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/press_center/announcements.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/announcements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/press_center/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/events.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/press_center/magazines/magazine_2023.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/magazines/magazine_2023.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/press_center/magazines/magazine_2024.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/magazines/magazine_2024.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/press_center/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/press_center/photo_gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/photo_gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/1/square1.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/square/1/square1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/2/square2.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/square/2/square2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/3/square3.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/square/3/square3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/4/square4.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/square/4/square4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/press_center.html" beforeDir="false" afterPath="$PROJECT_DIR$/press_center.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/swiper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Administrator &lt;sshaprans@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="db1f65a6-1f5b-4b5e-b11e-2c1a133fb6b8" />
+        <option name="url" value="https://github.com/sshaprans/dp-site.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2QGBHzzkTQ8yjUhFVDLsWR9hoDz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/my_html/IOGU/first-dp&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.qodana&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\my_html\IOGU\first-dp" />
+      <recent name="D:\my_html\IOGU\first-dp\link\press_center\magazines" />
+      <recent name="D:\my_html\first-dp\link\branches" />
+      <recent name="D:\my_html\first-dp\link\square" />
+      <recent name="D:\first-dp\link\branches" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\my_html\IOGU\first-dp\img" />
+      <recent name="D:\my_html\first-dp\link\square\1" />
+      <recent name="D:\first-dp\link" />
+      <recent name="D:\first-dp" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9cf08c6-f1f3-4abd-aa3c-960a8c81f59d" name="Changes" comment="" />
+      <created>1684969953690</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684969953690</updated>
+      <workItem from="1684969954839" duration="1988000" />
+      <workItem from="1686125480004" duration="101000" />
+      <workItem from="1687251816384" duration="2525000" />
+      <workItem from="1687421570525" duration="2841000" />
+      <workItem from="1687526138071" duration="2674000" />
+      <workItem from="1689149452745" duration="18166000" />
+      <workItem from="1689614811301" duration="26660000" />
+      <workItem from="1689685260249" duration="165000" />
+      <workItem from="1689685504140" duration="10593000" />
+      <workItem from="1689779147133" duration="33083000" />
+      <workItem from="1690887768831" duration="4604000" />
+      <workItem from="1691400514192" duration="761000" />
+      <workItem from="1691401393698" duration="12662000" />
+      <workItem from="1691573945532" duration="7067000" />
+      <workItem from="1692005811733" duration="890000" />
+      <workItem from="1692006739899" duration="4032000" />
+      <workItem from="1692015657312" duration="71358000" />
+      <workItem from="1692703457939" duration="1905000" />
+      <workItem from="1692805174576" duration="1356000" />
+      <workItem from="1693771453526" duration="15296000" />
+      <workItem from="1693950130808" duration="5228000" />
+      <workItem from="1693956355255" duration="13437000" />
+      <workItem from="1695898212520" duration="5943000" />
+      <workItem from="1695904218612" duration="7294000" />
+      <workItem from="1696246648562" duration="402000" />
+      <workItem from="1696280931949" duration="45000" />
+      <workItem from="1696284247382" duration="2533000" />
+      <workItem from="1696336807123" duration="1647000" />
+      <workItem from="1696494887343" duration="7874000" />
+      <workItem from="1696506777056" duration="945000" />
+      <workItem from="1696507985667" duration="356000" />
+      <workItem from="1696524939306" duration="27000" />
+      <workItem from="1696590836651" duration="11902000" />
+      <workItem from="1697365889181" duration="2764000" />
+      <workItem from="1697558100977" duration="36000" />
+      <workItem from="1697642739596" duration="2912000" />
+      <workItem from="1699360385668" duration="4876000" />
+      <workItem from="1699452385181" duration="646000" />
+      <workItem from="1699871174329" duration="3707000" />
+      <workItem from="1699880385634" duration="627000" />
+      <workItem from="1699908277844" duration="31000" />
+      <workItem from="1700041175490" duration="2114000" />
+      <workItem from="1700740498356" duration="21585000" />
+      <workItem from="1701793138276" duration="38000" />
+      <workItem from="1701953097090" duration="15054000" />
+      <workItem from="1702636650200" duration="2071000" />
+      <workItem from="1703161778457" duration="4862000" />
+      <workItem from="1704714123574" duration="4000" />
+      <workItem from="1704722310865" duration="26000" />
+      <workItem from="1706111220509" duration="28640000" />
+      <workItem from="1706272007655" duration="706000" />
+      <workItem from="1707201874887" duration="3464000" />
+      <workItem from="1707206024499" duration="17000" />
+      <workItem from="1707221547075" duration="2045000" />
+      <workItem from="1707224737119" duration="1113000" />
+      <workItem from="1707319050252" duration="5000" />
+      <workItem from="1707391068484" duration="8397000" />
+      <workItem from="1707480888495" duration="1551000" />
+      <workItem from="1707483852975" duration="113000" />
+      <workItem from="1707737053152" duration="8599000" />
+      <workItem from="1708084113742" duration="84000" />
+      <workItem from="1708346065598" duration="3745000" />
+      <workItem from="1708437247706" duration="42000" />
+      <workItem from="1708687652188" duration="1770000" />
+      <workItem from="1708690081743" duration="4076000" />
+      <workItem from="1709035198157" duration="3434000" />
+      <workItem from="1709127236700" duration="2894000" />
+      <workItem from="1709549579489" duration="482000" />
+      <workItem from="1709550457415" duration="3306000" />
+      <workItem from="1709567464044" duration="1074000" />
+      <workItem from="1710408702313" duration="2674000" />
+      <workItem from="1710511360937" duration="1019000" />
+      <workItem from="1710752845038" duration="10000" />
+      <workItem from="1711354773841" duration="930000" />
+      <workItem from="1711631645764" duration="6120000" />
+      <workItem from="1712081452846" duration="5141000" />
+      <workItem from="1712907562080" duration="5396000" />
+      <workItem from="1713456871228" duration="268000" />
+      <workItem from="1713462324163" duration="600000" />
+      <workItem from="1713778709414" duration="349000" />
+      <workItem from="1714080858279" duration="3201000" />
+      <workItem from="1714404511923" duration="2613000" />
+      <workItem from="1714508096623" duration="1117000" />
+      <workItem from="1714509236649" duration="64000" />
+      <workItem from="1714510402529" duration="19000" />
+      <workItem from="1714686408888" duration="693000" />
+      <workItem from="1715857639382" duration="2183000" />
+      <workItem from="1715862768354" duration="815000" />
+      <workItem from="1715898995406" duration="39000" />
+      <workItem from="1715899094251" duration="3000" />
+      <workItem from="1716065101342" duration="1340000" />
+      <workItem from="1716077500216" duration="918000" />
+      <workItem from="1716081660947" duration="6152000" />
+      <workItem from="1716204292958" duration="4277000" />
+      <workItem from="1716212530266" duration="2609000" />
+      <workItem from="1716473534102" duration="7773000" />
+    </task>
+    <task id="LOCAL-00001" summary="added lieder page and photo gallery">
+      <option name="closed" value="true" />
+      <created>1689642344666</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689642344666</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added table on main page">
+      <option name="closed" value="true" />
+      <created>1689766037783</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689766037784</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixed bugs on main page">
+      <option name="closed" value="true" />
+      <created>1690282405792</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690282405793</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added contact page and branches pages">
+      <option name="closed" value="true" />
+      <created>1690311413319</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690311413319</updated>
+    </task>
+    <task id="LOCAL-00005" summary="changes link position_file">
+      <option name="closed" value="true" />
+      <created>1692006694782</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692006694782</updated>
+    </task>
+    <task id="LOCAL-00006" summary="changes link position_file">
+      <option name="closed" value="true" />
+      <created>1692007327577</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692007327577</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix footer">
+      <option name="closed" value="true" />
+      <created>1692013128144</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692013128144</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix footer 2.0">
+      <option name="closed" value="true" />
+      <created>1692013870561</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1692013870562</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fixed branches pages">
+      <option name="closed" value="true" />
+      <created>1693786361093</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1693786361093</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add news pages ang magazines">
+      <option name="closed" value="true" />
+      <created>1715859678145</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715859678145</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add news pages ang magazines">
+      <option name="closed" value="true" />
+      <created>1715859840228</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715859840228</updated>
+    </task>
+    <task id="LOCAL-00012" summary="change name of branches">
+      <option name="closed" value="true" />
+      <created>1716213123947</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1716213123947</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_ROOT_NAMES" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="added lieder page and photo gallery" />
+    <MESSAGE value="added table on main page" />
+    <MESSAGE value="fixed bugs on main page" />
+    <MESSAGE value="added contact page and branches pages" />
+    <MESSAGE value="changes link position_file" />
+    <MESSAGE value="fix footer" />
+    <MESSAGE value="fix footer 2.0" />
+    <MESSAGE value="fixed branches pages" />
+    <MESSAGE value="add news pages ang magazines" />
+    <MESSAGE value="change name of branches" />
+    <MESSAGE value="added news 23-050-2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="added news 23-050-2024" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
