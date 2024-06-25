@@ -176,7 +176,9 @@ picture>img{
 .big--2024{
     box-shadow: 0 4px 48px 0 rgba(0, 0, 0, 0.04);
 }
-
+.block-magazine-img-3_picture--new{
+    padding: 0 80px;
+}
 /*2024 end*/
 
 @media (max-width: 1300px) {
@@ -261,6 +263,9 @@ picture>img{
     }
     picture {
         min-width: 100%;
+    }
+    .block-magazine-img-3_picture--new{
+        padding: 0 40px;
     }
 }
 @media (max-width: 500px) {
