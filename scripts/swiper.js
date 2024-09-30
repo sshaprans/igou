@@ -5,7 +5,6 @@ const swiper = new Swiper('.swiper', {
     loop: true,
     speed: 500,
     effect: 'slider',
-    freeMode: true,
     slidesPerView: 1,
 
     pagination: {

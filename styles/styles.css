@@ -1013,6 +1013,7 @@ font-style: italic;
  text-align: center;
 }
 .link__document{
+    max-width: 350px;
     border: 1px solid var(--green_light-color);
     padding: 40px 60px;
     transition: all .3s ease-in-out;

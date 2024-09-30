@@ -14,6 +14,7 @@
     width: 100%;
     height: calc(100% - 100px);
     object-fit: cover;
+    transition: all 0.3s ease-in-out;
 }
 .swiper-slide {
     display: flex;
@@ -32,19 +33,12 @@
     height: 100%;
     transition: all .3s ease-in;
 }
-.swiper-link:hover{
-    /*box-shadow: 1px 3px 8px #FFD600, -1px -3px 8px #005BBC;*/
-    scale: 1.02;
+.swiper-link:hover .swiper-img{
+    scale: 1.03;
 }
 .swiper-slide{
     display: flex;
 }
-/* arrow */
-/*.swiper-pagination{*/
-/*    position: absolute;*/
-/*    bottom: 0;*/
-/*    left: 0;*/
-/*}*/
 .swiper-button-prev{
     left: -8px;
     top: 41%;

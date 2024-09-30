@@ -4,13 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9cf08c6-f1f3-4abd-aa3c-960a8c81f59d" name="Changes" comment="added news 30-05-2024">
+    <list default="true" id="d9cf08c6-f1f3-4abd-aa3c-960a8c81f59d" name="Changes" comment="ОБҐРУНТУВАННЯ ТЕХНІЧНИХ ТА ЯКІСНИХ ХАРАКТЕРИСТИК ПРЕДМЕТА ЗАКУПІВЛІ, РОЗМІРУ БЮДЖЕТНОГО ПРИЗНАЧЕННЯ, ОЧІКУВАНОЇ ВАРТОСТІ ПРЕДМЕТА ЗАКУПІВЛІ">
+      <change afterPath="$PROJECT_DIR$/img/magazine/2024/05_07_2024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/magazine/2024/05_07_2024_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/magazine/2024/05_07_2024_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/magazine/2024/12_08_2024-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/magazine/2024/12_08_2024-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/magazine/2024/12_08_2024-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/magazine/2024/12_08_2024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/magazine/2024/18_07_2024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/magazine/2024/19_08_2024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/magazine/2024/19_08_2024_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/magazine/2024/19_08_2024_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/magazine/2024/25_09_2024-1_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/magazine/2024/25_09_2024-1_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/magazine/2024/25_09_2024-1_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/magazine/2024/25_09_2024-1_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/magazine/2024/25_09_2024-2_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/magazine/2024/25_09_2024-2_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/magazine/2024/25_09_2024-2_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/magazine/2024/26_07_2024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/magazine/2024/26_08_2024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/magazine/2024/26_08_2024_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/magazine/2024/30-06-2024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/literature/govern_2024/12_08_2024.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/literature/govern_2024/19_09_2024.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/literature/govern_2024/19_09_2024_1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/literature/magazine/2024/19_08_2024_1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/literature/magazine/2024/19_08_2024_2.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ftpquota" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/zhytomer.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/zhytomer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link/directions/government_procurement.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/directions/government_procurement.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link/press_center/magazines/magazine_2024.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/magazines/magazine_2024.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/press_center/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/news.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/position_file.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/literature/position_file.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/edition.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/edition.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/swiper-bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/swiper-bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/swiper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/swiper.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/swiper.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-config.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +114,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/testSite/relax-gaming.com&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/OneDrive/Рабочий стол/zozu-dev&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -215,6 +251,23 @@
       <workItem from="1717089845588" duration="7000" />
       <workItem from="1718146164662" duration="2220000" />
       <workItem from="1718148791832" duration="6000" />
+      <workItem from="1719251844411" duration="4529000" />
+      <workItem from="1719777464636" duration="1070000" />
+      <workItem from="1720127844718" duration="3068000" />
+      <workItem from="1720692333753" duration="380000" />
+      <workItem from="1721310580675" duration="6190000" />
+      <workItem from="1721991755909" duration="1754000" />
+      <workItem from="1723452374673" duration="1196000" />
+      <workItem from="1723483922054" duration="3815000" />
+      <workItem from="1724064457541" duration="3703000" />
+      <workItem from="1724700370034" duration="2629000" />
+      <workItem from="1726046205485" duration="1144000" />
+      <workItem from="1726051778782" duration="24000" />
+      <workItem from="1726739590237" duration="970000" />
+      <workItem from="1727273392597" duration="6327000" />
+      <workItem from="1727329560805" duration="92000" />
+      <workItem from="1727433216287" duration="1317000" />
+      <workItem from="1727705980196" duration="592000" />
     </task>
     <task id="LOCAL-00001" summary="added lieder page and photo gallery">
       <option name="closed" value="true" />
@@ -328,7 +381,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717061550529</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added news 25_06_2024">
+      <option name="closed" value="true" />
+      <created>1719279112716</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1719279112717</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,7 +435,10 @@
     <MESSAGE value="change name of branches" />
     <MESSAGE value="added news 23-050-2024" />
     <MESSAGE value="added news 30-05-2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="added news 30-05-2024" />
+    <MESSAGE value="added news 25_06_2024" />
+    <MESSAGE value="added news 12_08_2024, added government" />
+    <MESSAGE value="ОБҐРУНТУВАННЯ ТЕХНІЧНИХ ТА ЯКІСНИХ ХАРАКТЕРИСТИК ПРЕДМЕТА ЗАКУПІВЛІ, РОЗМІРУ БЮДЖЕТНОГО ПРИЗНАЧЕННЯ, ОЧІКУВАНОЇ ВАРТОСТІ ПРЕДМЕТА ЗАКУПІВЛІ" />
+    <option name="LAST_COMMIT_MESSAGE" value="ОБҐРУНТУВАННЯ ТЕХНІЧНИХ ТА ЯКІСНИХ ХАРАКТЕРИСТИК ПРЕДМЕТА ЗАКУПІВЛІ, РОЗМІРУ БЮДЖЕТНОГО ПРИЗНАЧЕННЯ, ОЧІКУВАНОЇ ВАРТОСТІ ПРЕДМЕТА ЗАКУПІВЛІ" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
