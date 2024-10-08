@@ -1798,6 +1798,7 @@ font-style: italic;
 .magazine_down_line{
     text-decoration: underline;
 }
+
 /*media*/
 
 @media (max-width: 1500px) {

@@ -179,6 +179,9 @@ picture>img{
 .block-magazine-img-3_picture--new{
     padding: 0 80px;
 }
+.min-gap-list{
+    gap: 15px !important;
+}
 /*2024 end*/
 
 @media (max-width: 1300px) {
