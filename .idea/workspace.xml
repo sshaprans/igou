@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9cf08c6-f1f3-4abd-aa3c-960a8c81f59d" name="Changes" comment="improve 11_11_2024">
-      <change afterPath="$PROJECT_DIR$/literature/11_10_2024.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Без назви-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/Без назви-1.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/directions/edition.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/directions/edition.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link/directions/government_procurement.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/directions/government_procurement.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link/press_center/magazines/magazine_2024.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/magazines/magazine_2024.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/press_center/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/news.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +77,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/OneDrive/Рабочий стол/zozu-dev/bratskadopomoga-main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/OneDrive/Рабочий стол/zozu-dev/zozulya-dev&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -241,7 +238,16 @@
       <workItem from="1729949079157" duration="1260000" />
       <workItem from="1730189166438" duration="1740000" />
       <workItem from="1730877749394" duration="5124000" />
-      <workItem from="1731350078760" duration="485000" />
+      <workItem from="1731350078760" duration="1153000" />
+      <workItem from="1731408735694" duration="4962000" />
+      <workItem from="1731687820736" duration="4276000" />
+      <workItem from="1732569681154" duration="3351000" />
+      <workItem from="1732651217831" duration="1418000" />
+      <workItem from="1733156878580" duration="132000" />
+      <workItem from="1733389446458" duration="1694000" />
+      <workItem from="1733793212067" duration="944000" />
+      <workItem from="1733794243202" duration="78000" />
+      <workItem from="1733795017686" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="added lieder page and photo gallery">
       <option name="closed" value="true" />
@@ -379,7 +385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728383516305</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="improve 11_11_2024">
+      <option name="closed" value="true" />
+      <created>1731350632742</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1731350632742</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
