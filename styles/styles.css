@@ -40,16 +40,17 @@ body{
     flex: 1 0 auto;
 }
 .container{
-    max-width: 1480px;
-    padding: 0 35px;
+    width: 100%;
+    max-width: 1600px;
+    padding: 0 20px;
     margin: 0 auto;
     position: relative;
 }
-.main{
+/* .main{
     background-color: #fff;
-}
+} */
 .main-container{
-    /*padding: 0 34px;*/
+    
     max-width: 1400px;
     margin: 0 auto;
     box-shadow: 0 12px 8px 5px rgba(0,0,0,.2);
@@ -197,9 +198,11 @@ footer a:hover{
 .header-title-box{
     margin: -75px 0 50px
 }
-.header-title{
+.header-title > span{
     font-size: 30px;
     font-weight: 900;
+    display: flex;
+    flex-direction: column;
 }
 /*nav menu*/
 
@@ -289,7 +292,7 @@ li:hover ul.nav-list {
     overflow-x: hidden;
 }
 .wrapper-ticker:hover{
-    scale: 1.01;
+    /*scale: 1.01;*/
     box-shadow: 1px 3px 8px #FFD600, -1px -3px 8px #005BBC;
 }
 .ticker {
@@ -298,10 +301,10 @@ li:hover ul.nav-list {
     white-space: nowrap;
     background: #ffffff;
     color: #000000;
-    padding: 10px 0;
+    padding: 5px 0;
 }
 .ticker-p{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -324,7 +327,7 @@ li:hover ul.nav-list {
     align-items: center;
     text-align: center;
     gap: 110px;
-    padding: 5px 65px;
+    padding: 0 65px;
     white-space: nowrap;
     animation-name: animMarqueeRtl;
     animation-duration: 45s;
@@ -345,7 +348,7 @@ li:hover ul.nav-list {
     /*padding-top: 130px;*/
     display: flex;
     justify-content: space-between;
-    margin: 100px auto 0;
+    margin: 70px auto 0;
 }
 #offers-wrapper{
     padding-top: 2px;
@@ -380,6 +383,290 @@ li:hover ul.nav-list {
 .offer-text{
     color: rgba(8, 76, 49);
 }
+
+
+/* sale block */
+ .sale-block-wrapper{
+     margin: 10px 0 80px;
+ }
+ :active, :hover, :focus {
+     outline: 0!important;
+     outline-offset: 0;
+ }
+ ::before,
+ ::after {
+     position: absolute;
+     content: "";
+ }
+ .link-btn {
+     position: relative;
+     display: inline-block;
+     width: auto; height: auto;
+     background-color: #0C5237;
+     border: none;
+     cursor: pointer;
+     min-width: 150px;
+ }
+ .link-btn::before {
+     background-color: #D8E8A5;
+     transition: 0.3s ease-out;
+     top:0; bottom: 0; right: 0;
+     height: 100%; width: 100%;
+ }
+ .link-btn::after{
+     background-color: #0C5237;
+     transition: 0.3s ease-out;
+     top:0; bottom: 0; left: 0;
+     height: 100%; width: 5px;
+ }
+ .link-btn:hover::before {
+     width: 0;
+ }
+ .link-btn__text{
+     position: relative;
+     display: inline-block;
+     font-size: 22px;
+     font-weight: 500;
+     top: 0; left: 0;
+     width: 100%;
+     padding: 16px 25px;
+     transition: 0.3s;
+     color: #0C5237;
+     letter-spacing: normal;
+ }
+ .link-btn__text:hover {
+     color: #fff;
+     transition: 0.2s 0.1s;
+ }
+ .sale-block {
+     position: relative;
+     max-width: 100%;
+     overflow: hidden;
+ }
+ .sale-block__image-wrapper {
+     position: relative;
+ }
+
+ .sale-block__image {
+     width: 100%;
+     height: auto;
+     display: block;
+ }
+ .sale-block__content {
+     padding-left: 60px;
+     position: absolute;
+     top: 50%;
+     left: 0;
+     transform: translate(0, -50%);
+     color: var(--green-dark);
+
+ }
+ .sale-block__title,
+ .sale-block__title > .sale_block__text-wrap{
+     font-size: 46px;
+     font-weight: 500;
+     margin-bottom: 35px;
+ }
+ .precision-banner__text{
+     color: white;
+     max-width: 500px;
+     font-size: 36px;
+
+ }
+ .sale-block__description,
+ .sale-block__description > .sale_block__text-wrap{
+     font-size: 25px;
+     font-weight: 500;
+     margin-bottom: 60px;
+
+ }
+ .sale_block__text-wrap{
+     display: block;
+ }
+
+/* sale block end */
+
+/*precision */
+ .precision-banner-wrapper{
+     padding-top: 80px;
+ }
+.precision__stages{
+    margin: 80px 0 90px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.precision__stages__block{
+    padding: 25px 30px;
+    width: calc(100% / 3 - 50px);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.precision__stages__block__stage,
+.precision__stages__block__desc{
+    font-size: 18px;
+}
+.precision__stages__block__title{
+    font-weight: 600;
+    font-size: 24px;
+}
+.precision__stages__svg{
+    margin-left: 50px;
+}
+.precision-banner__content{
+    display: flex;
+    gap: 120px;
+    align-items: start;
+}
+.precision-banner__content__img{
+    object-fit: contain;
+    max-height: 500px;
+}
+.precision-banner__content__title,
+.precision__pack__price{
+    font-size: 26px;
+    font-weight: 400;
+
+}
+.precision__pack__price{
+    color: var(--green-dark);
+    margin: 35px 0 50px;
+    text-align: center;
+}
+.precision-banner__content__list-title{
+    font-weight: 400;
+    font-size: 22px;
+    margin: 40px 0 15px;
+}
+.precision-banner__content__text__list{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.precision-banner__content__text__list__item{
+    font-size: 16px;
+    opacity: .65;
+    margin-left: 20px;
+    list-style-type: disc;
+}
+.precision-banner__content__text{
+    margin-bottom: 90px;
+}
+.sale-block__title--page{
+    margin: 0;
+}
+.sale-block__content--page{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 40px;
+}
+.sale-block--page{
+    margin-bottom: 90px;
+}
+/*pack*/
+ .precision__pack-wrapper{
+     margin-bottom: 80px;
+ }
+.sale-block__title--pack{
+    margin-bottom: 65px;
+    color: var(--green-dark);
+}
+.link-btn__text--pack{
+    font-size: 20px;
+}
+ .precision__pack__blocks{
+     display: flex;
+
+     justify-content: space-between;
+ }
+ .precision__pack{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: calc(100%/3 - 50px);
+     padding: 50px 25px;
+     border-radius: 3px;
+     border: 1px solid rgba(77, 90, 79, 0.4);
+     position: relative;
+     height: fit-content;
+ }
+ .precision__pack__info{
+     position: absolute;
+     top: 0;
+     right: 0;
+     background-color: var(--green-dark);
+     color: white;
+     font-size: 16px;
+     padding: 8px 12px;
+ }
+ .precision-banner__content__title--pack{
+     margin-bottom: 25px;
+ }
+ .info-list{
+     display: flex;
+     flex-direction: column;
+     gap: 5px;
+     margin-bottom: 20px;
+ }
+ .info-list__item{
+     opacity: .65;
+     font-size: 16px;
+     font-style: italic;
+ }
+
+ /*modal*/
+ .modal {
+     display: none;
+     position: fixed;
+     z-index: 1;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     overflow: auto;
+     background-color: rgba(0, 0, 0, 0.4);
+ }
+
+ .modal-content {
+     background-color: #fff;
+     margin: 15% auto;
+     padding: 20px;
+     border: 1px solid #888;
+     width: 30%;
+     text-align: center;
+ }
+
+ .close {
+     color: #aaa;
+     float: right;
+     font-size: 28px;
+     font-weight: bold;
+ }
+
+ .close:hover,
+ .close:focus {
+     color: black;
+     text-decoration: none;
+     cursor: pointer;
+ }
+
+ .sale-form input {
+     display: block;
+     margin: 10px auto;
+     padding: 10px;
+     width: 80%;
+ }
+
+ .sale-form button {
+     margin: 10px;
+     padding: 10px 20px;
+ }
+
+/* precision end*/
+
+
 /*news*/
 
 .news-box{
@@ -1840,6 +2127,7 @@ font-style: italic;
     }
     .header-title {
         font-size: 24px;
+
     }
     .line-number {
         font-size: 16px;
