@@ -1,4 +1,53 @@
-// "use strict"
+"use strict"
+
+// modal
+const modal = document.querySelector("#modal");
+const modalBtn = document.querySelectorAll(".btn-js");
+const closeBtn = document.getElementsByClassName("modal-close")[0];
+const overlay = document.querySelector(".overlay");
+
+function preventScroll() {
+    const scrollTop = window.scrollY || document.documentElement.scrollTop;
+    document.body.style.position = 'fixed';
+    document.body.style.top = `-${scrollTop}px`;
+    document.body.dataset.scrollPosition = scrollTop.toString();
+}
+
+function restoreScroll() {
+    const scrollPosition = parseInt(document.body.dataset.scrollPosition || '0', 10);
+    document.body.style.position = '';
+    document.body.style.top = '';
+    delete document.body.dataset.scrollPosition;
+    window.scrollTo(0, scrollPosition);
+}
+
+modalBtn.forEach(btn => {
+    btn.addEventListener('click', (event) => {
+        event.preventDefault(); // Prevent page reload
+        overlay.classList.add("open");
+        modal.classList.add("open");
+        modal.classList.add("modal-an");
+        preventScroll();
+    });
+});
+
+closeBtn.onclick = function(event) {
+    event.preventDefault();
+    overlay.classList.remove("open");
+    modal.classList.remove("open");
+    restoreScroll();
+};
+
+window.onclick = function(event) {
+    if (event.target === overlay) {
+        overlay.classList.remove("open");
+        modal.classList.remove("open");
+        restoreScroll();
+    }
+};
+
+
+
 // main
 const eye = document.querySelector(".vision");
 const body = document.querySelector(".body");
@@ -13,32 +62,4 @@ btnFixed.addEventListener('click', () => {
     btnFixedList.classList.toggle('active');
 });
 
-// edition
-
-// Знаходимо всі кнопки з класом .open-modal
-const openModalButtons = document.querySelectorAll('.open-modal');
-
-// Знаходимо модальне вікно і кнопку для закриття
-const modal = document.getElementById('modal');
-const closeModalButton = document.querySelector('.close');
-
-// Додаємо обробник подій для кожної кнопки
-openModalButtons.forEach(button => {
-    button.addEventListener('click', function (event) {
-        event.preventDefault(); // Запобігаємо переходу за посиланням
-        modal.style.display = 'block'; // Показуємо модальне вікно
-    });
-});
-
-// Закриваємо модальне вікно при натисканні на "Х"
-closeModalButton.addEventListener('click', function () {
-    modal.style.display = 'none';
-});
-
-// Закриваємо модальне вікно при натисканні за межами вікна
-window.addEventListener('click', function (event) {
-    if (event.target === modal) {
-        modal.style.display = 'none';
-    }
-});
 

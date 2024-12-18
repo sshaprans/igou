@@ -1,0 +1,188 @@
+.overlay{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    pointer-events: none;
+    background-color: rgba(117, 158, 234, 0.527);
+    transition: all .3s;
+}
+.overlay.open{
+    opacity: 1;
+    pointer-events: initial;
+    z-index: 35;
+}
+.modal {
+    pointer-events: none;
+    opacity: 0;
+    transform: translateY(-100%);
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    overflow-y: hidden;
+
+}
+
+.modal.modal-an {
+    z-index: 1;
+    animation: modalAnimClose .3s linear forwards;
+}
+
+.modal.open {
+    z-index: 40;
+    pointer-events: initial;
+    animation: modalAnimOpen .3s linear forwards;
+}
+
+@keyframes modalAnimOpen {
+    0% {
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes modalAnimClose {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+
+    }
+    100% {
+        z-index: -1;
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 90px auto;
+    padding: 60px;
+    border-radius: 40px;
+    width: 715px;
+    height: 628px;
+    text-align: center;
+    position: relative;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+#form>label{
+    text-align: left;
+}
+form>input,
+form>textarea{
+    height: 42px;
+    border: 2px solid #9A9A9A;
+    margin-bottom: 10px;
+    padding: 6px;
+    outline: none;
+    /*transition: all .3s;*/
+}
+form>input:hover,
+form>textarea:hover{
+    border: 2px solid #6FA3D4;
+}
+
+.close {
+    position: absolute;
+    right: 16px;
+    top: -6px;
+    font-weight: 600;
+    font-size: 64px;
+    color: #000000;
+    float: right;
+    transition: all .3s;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    transform: rotate(-180deg);
+    text-decoration: none;
+    cursor: pointer;
+}
+.form-title{
+    font-size: 56px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.input-text{
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 8px;
+}
+#comment{
+    height: 67px;
+}
+#comment::placeholder{
+    font-weight: 600;
+    font-size: 16px;
+    /*line-height: 50px;*/
+    color: #8C8C8C;
+    display: flex;
+    align-items: center;
+    /*padding-left: 6px;*/
+}
+#submit{
+    margin-top: 20px;
+    width: fit-content;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #6FA3D4;
+    padding: 10px 20px;
+    border: 2px solid #6EA2D4;
+    transition: all 0.3s;
+}
+#submit:hover{
+    color: #6FA3D4;
+    background: #FFFFFF;
+}
+.form-contact {
+    position: absolute;
+    right: 4px;
+    bottom: -31px;
+}
+.form-list {
+    display: flex;
+    column-gap: 3px;
+    justify-content: flex-end;
+}
+.freelance-form, .whatsapp-form, .viber-form, .telegram-form {
+    width: 32px;
+    height: 32px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    padding: 6px;
+    transition: all .3s;
+}
+.freelance-form:hover,
+.whatsapp-form:hover,
+.viber-form:hover,
+.telegram-form:hover {
+    border: 2px solid #6FA3D4;
+}
+.form-number:hover{
+    color: #6FA3D4;
+}
+.form-number{
+    font-weight: 600;
+    font-size: 19px;
+    transition: all .3s;
+
+}
+.scroll-hidden { overflow: hidden }
