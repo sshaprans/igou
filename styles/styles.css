@@ -8,7 +8,7 @@
     /* king --blue-color: #4169e1; */
     --blue-color:#1743A1;
     --green-color: rgba(0, 128, 0, 0.55);
-    --green-dark: #0c5237;
+    --green-dark: #175A41;
     --green_light-color: rgba(200, 220, 212);
     --green-text: rgba(8, 76, 49);
     --grey-text: #4B4B4B;
@@ -37,7 +37,9 @@ body{
  .precision-banner__content__img--mobile,
  .fast-call__img--mobile,
  .fast-call__img--last-mobile,
- .sale-block__image-mobile{
+ .sale-block__image-mobile,
+ .gp_header__text--mobile,
+ .gp_header__img--mobile{
      display: none;
  }
 .up{
@@ -118,8 +120,8 @@ footer a:hover{
     align-items: center;
 }
 .logo{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background: white;
     border-radius: 50%;
     margin-right: 25px;
@@ -509,7 +511,7 @@ li:hover ul.nav-list {
     gap: 20px;
 }
 .precision__stages__block__stage,
-.precision__stages__block__desc{
+.new-main-text{
     font-size: 18px;
 }
 .precision__stages__block__title{
@@ -539,7 +541,7 @@ li:hover ul.nav-list {
     margin: 35px 0 50px;
     text-align: center;
 }
-.precision-banner__content__list-title{
+.new_list-title{
     font-weight: 400;
     font-size: 22px;
     margin: 40px 0 15px;
@@ -574,7 +576,7 @@ li:hover ul.nav-list {
  .precision__pack-wrapper{
      margin-bottom: 80px;
  }
-.sale-block__title--pack{
+.new-main-title{
     margin-bottom: 65px;
     color: var(--green-dark);
 }
@@ -2257,7 +2259,7 @@ font-style: italic;
     .precision-banner__text {
         font-size: 30px;
     }
-    .precision__stages__block__stage, .precision__stages__block__desc {
+    .precision__stages__block__stage, .new-main-text {
         font-size: 16px;
     }
     .precision__stages__block__title {
@@ -2274,7 +2276,7 @@ font-style: italic;
         font-size: 18px;
         padding: 10px 15px;
     }
-    .precision-banner__content__list-title {
+    .new_list-title {
         font-size: 20px;
     }
     .link-btn__text--pack {
