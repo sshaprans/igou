@@ -4,7 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9cf08c6-f1f3-4abd-aa3c-960a8c81f59d" name="Changes" comment="added ground partners page" />
+    <list default="true" id="d9cf08c6-f1f3-4abd-aa3c-960a8c81f59d" name="Changes" comment="added test link">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/about/activity.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/activity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/about/anthem.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/anthem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/about/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/about/leadership.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/leadership.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/about/position.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/position.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/about/structure.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/structure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/cherkasy.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/cherkasy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/chernigiv.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/chernigiv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/chernivtsi.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/chernivtsi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/dnipro.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/dnipro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/donetsk.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/donetsk.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/harkiv.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/harkiv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/herson.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/herson.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/hmelnutskiy.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/hmelnutskiy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/ivanofrakivsk.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/ivanofrakivsk.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/kirovograd.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/kirovograd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/luhansk.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/luhansk.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/lviv.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/lviv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/mukolaiv.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/mukolaiv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/odesa.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/odesa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/poltava.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/poltava.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/qrım.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/qrım.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/rivne.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/rivne.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/sumy.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/sumy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/ternopil.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/ternopil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/vinnytsia.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/vinnytsia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/volhynia.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/volhynia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/zakarpata.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/zakarpata.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/zaporizha.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/zaporizha.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/zhytomer.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/zhytomer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches_of_du.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches_of_du.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/directions/edition.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/directions/edition.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/directions/government_procurement.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/directions/government_procurement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/directions/international_activity.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/directions/international_activity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/directions/land_survey.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/directions/land_survey.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/directions/monitoring_objects.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/directions/monitoring_objects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/press_center/announcements.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/announcements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/press_center/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/events.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/press_center/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/press_center/photo_gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/photo_gallery.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -257,7 +300,7 @@
       <workItem from="1736342965876" duration="1834000" />
       <workItem from="1736345220923" duration="20749000" />
       <workItem from="1736369585109" duration="597000" />
-      <workItem from="1736372383110" duration="386000" />
+      <workItem from="1736372383110" duration="1879000" />
     </task>
     <task id="LOCAL-00001" summary="added lieder page and photo gallery">
       <option name="closed" value="true" />
@@ -427,7 +470,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736372570475</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="added test link">
+      <option name="closed" value="true" />
+      <created>1736372940934</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1736372940934</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -484,7 +535,8 @@
     <MESSAGE value="added new page" />
     <MESSAGE value="finished sale-page" />
     <MESSAGE value="added ground partners page" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ground partners page" />
+    <MESSAGE value="added test link" />
+    <option name="LAST_COMMIT_MESSAGE" value="added test link" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
