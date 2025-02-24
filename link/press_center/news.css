@@ -71,6 +71,10 @@
     background-image: url("../../img/magazine/06_02_2024.jpg");
     color: #FFFFFF;
 }
+.magazine--2025{
+    background-image: url("../../img/magazine/2025/10_02_2025.jpg");
+
+}
 /*magazines*/
 .magazine_content{
     padding-bottom: 120px;

@@ -1836,9 +1836,10 @@ font-style: italic;
  .instructions{
      margin-top: 70px;
      display: flex;
-     justify-content: space-between;
+     flex-wrap: wrap;
+     justify-content: center;
      gap: 25px;
-     padding-bottom: 100px;
+     padding-bottom: 80px;
      width: 100%;
  }
  .instructions-block{
@@ -2232,6 +2233,9 @@ font-style: italic;
     .section-title-sup {
         margin: 20px 0;
         font-size: 32px;
+    }
+    .instructions-block {
+        width: calc(100% / 3 - 20px);
     }
 }
 @media (max-width: 1150px) {

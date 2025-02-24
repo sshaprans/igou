@@ -4,49 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9cf08c6-f1f3-4abd-aa3c-960a8c81f59d" name="Changes" comment="added test link">
+    <list default="true" id="d9cf08c6-f1f3-4abd-aa3c-960a8c81f59d" name="Changes" comment="created magazine 2025">
+      <change afterPath="$PROJECT_DIR$/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/directory/edition/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/magazine/2025/10_02_2025.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/publication/motod5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/zvit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/link/directions/zvit.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/link/press_center/magazines/magazine_2025.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/literature/gp/zvit.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/literature/instructions/Визначення_бору_в_добривах_та_органогенних_ґрунтах.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/literature/mamorandum/2021меморандум Асоціація Українське Грунтове Партнерство.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/literature/mamorandum/2022-1меморандум Інститут агроекології і прриродокористування НААН.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/literature/mamorandum/2022-2Меморандум Державний біотехнологічний університет.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/literature/mamorandum/2022-3Меморандум про співпрацю з національним науковим центром Інститут землеробства НААН.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/literature/mamorandum/2022-4Мемрандум з УкрНДІПВТ ім. Л.Погорілого.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/literature/mamorandum/2023-1договір про співпрацю з ВСП Камянець-подільського фахового коледжу закладу вищої освіти Подільський державний університет.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/literature/mamorandum/2023-2Меморандум про співпрацю з Інститутом тваринництва Національної академії аграрних наук України.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/literature/mamorandum/2023-3Меморандум про співпрацю з Полтавським державним аграрним університетом.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/literature/mamorandum/2023-4Меморандум про співпраю з Національним музеєм Голодомиру-геноциду.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/literature/mamorandum/2024-1Договір про співпрацю з ВСП Камянець-подільський фаховий коледж харчової промисловості.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/literature/mamorandum/2024-2Договір про співпрацю з Західноукраїнським національним університетом.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/literature/mamorandum/2024-3Договір про співпрацю з Тернопільським національним технічним університетом імені Івана Пулюя.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/literature/mamorandum/2024-4Договір про співпрцю з Відокремленим підрозділом НУБІП Бережанський інститут.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/literature/mamorandum/2024-5Меморандум про співпрацю з Асоціацією RETURN.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/literature/mamorandum/2024-6Меморандум про співпрацю з Центром досконалості протимінної діяльності та екологічної безпеки.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/literature/tech_zvit/1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/literature/tech_zvit/2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/literature/tech_zvit/3.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/about/activity.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/activity.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/about/anthem.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/anthem.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/about/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/history.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/about/leadership.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/leadership.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/about/position.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/position.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/about/structure.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/structure.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/cherkasy.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/cherkasy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/chernigiv.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/chernigiv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/chernivtsi.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/chernivtsi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/dnipro.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/dnipro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/donetsk.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/donetsk.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/harkiv.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/harkiv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/herson.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/herson.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/hmelnutskiy.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/hmelnutskiy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/ivanofrakivsk.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/ivanofrakivsk.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/kirovograd.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/kirovograd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/luhansk.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/luhansk.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/lviv.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/lviv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/mukolaiv.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/mukolaiv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/odesa.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/odesa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/poltava.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/poltava.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/qrım.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/qrım.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/rivne.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/rivne.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/sumy.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/sumy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/ternopil.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/ternopil.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/vinnytsia.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/vinnytsia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/volhynia.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/volhynia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/zakarpata.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/zakarpata.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/zaporizha.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/zaporizha.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/zhytomer.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/zhytomer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches_of_du.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches_of_du.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ground_partner.html" beforeDir="false" afterPath="$PROJECT_DIR$/ground_partner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/contacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link/directions/edition.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/directions/edition.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/directions/government_procurement.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/directions/government_procurement.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link/directions/international_activity.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/directions/international_activity.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/directions/land_survey.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/directions/land_survey.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/directions/monitoring_objects.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/directions/monitoring_objects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/press_center/announcements.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/announcements.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/press_center/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/events.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/press_center/magazines/magazine_2024.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/magazines/magazine_2024.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/press_center/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/news.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link/press_center/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/press_center/photo_gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/photo_gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,9 +54,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -114,7 +109,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/my_html/IOGU/first-dp&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/my_html/IOGU/first-dp/link/press_center/magazines&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -127,8 +122,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\my_html\IOGU\first-dp" />
       <recent name="D:\my_html\IOGU\first-dp\link\press_center\magazines" />
+      <recent name="D:\my_html\IOGU\first-dp" />
       <recent name="D:\my_html\first-dp\link\branches" />
       <recent name="D:\my_html\first-dp\link\square" />
       <recent name="D:\first-dp\link\branches" />
@@ -300,7 +295,19 @@
       <workItem from="1736342965876" duration="1834000" />
       <workItem from="1736345220923" duration="20749000" />
       <workItem from="1736369585109" duration="597000" />
-      <workItem from="1736372383110" duration="1879000" />
+      <workItem from="1736372383110" duration="2353000" />
+      <workItem from="1736491531405" duration="7562000" />
+      <workItem from="1736873619442" duration="10000" />
+      <workItem from="1736946269090" duration="1783000" />
+      <workItem from="1737025040963" duration="296000" />
+      <workItem from="1737547796904" duration="455000" />
+      <workItem from="1738098113494" duration="619000" />
+      <workItem from="1738169498872" duration="1991000" />
+      <workItem from="1738259252535" duration="560000" />
+      <workItem from="1739219055188" duration="4063000" />
+      <workItem from="1739790218673" duration="35000" />
+      <workItem from="1740052305818" duration="704000" />
+      <workItem from="1740130163236" duration="1272000" />
     </task>
     <task id="LOCAL-00001" summary="added lieder page and photo gallery">
       <option name="closed" value="true" />
@@ -478,7 +485,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736372940934</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="improve header menu add ground link">
+      <option name="closed" value="true" />
+      <created>1736374553144</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1736374553144</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,7 +527,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added lieder page and photo gallery" />
     <MESSAGE value="added table on main page" />
     <MESSAGE value="fixed bugs on main page" />
     <MESSAGE value="added contact page and branches pages" />
@@ -536,7 +550,9 @@
     <MESSAGE value="finished sale-page" />
     <MESSAGE value="added ground partners page" />
     <MESSAGE value="added test link" />
-    <option name="LAST_COMMIT_MESSAGE" value="added test link" />
+    <MESSAGE value="improve header menu add ground link" />
+    <MESSAGE value="created magazine 2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="created magazine 2025" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
