@@ -4,16 +4,69 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9cf08c6-f1f3-4abd-aa3c-960a8c81f59d" name="Changes" comment="created magazine 2025">
+    <list default="true" id="d9cf08c6-f1f3-4abd-aa3c-960a8c81f59d" name="Changes" comment="redesign and add content and improve branches pages">
+      <change afterPath="$PROJECT_DIR$/img/branches/history/cherkasi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/branches/history/chernihiv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/branches/staff/avatar_m.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/branches/staff/avatar_w.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/link/branches/shablon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/directions.html" beforeDir="false" afterPath="$PROJECT_DIR$/directions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ground_partner.html" beforeDir="false" afterPath="$PROJECT_DIR$/ground_partner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/cherkasy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/cherkasy.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/chernigiv.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/chernivtsi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/dnipro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/dnipro2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/frankivsk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/harkiv.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/herson.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/hmelnitsk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/if/director.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/if/ingener.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/if/zavLab1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/if/zavLab2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/if/Будинок.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/if/матеріали на сайт.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/if/свідоцтво.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/kirovograd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/krop/director.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/krop/economist.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/krop/krop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/lviv.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/odesa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/poltava.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/rivne/bg_history.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/rivne/glavbug.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/rivne/rivne.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/rivne/vo-dev.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/rivne/zav-man.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/rivne/zav-woman.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/sumy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/ternopil.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/vol/director.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/volhynia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/volhynia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/vynica.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/vynica.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/zakarpata.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/zaporizha.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/zhitomer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/land_survey/map/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/directory/land_survey/map/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/land_survey/map/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/directory/land_survey/map/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/land_survey/map/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/directory/land_survey/map/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/land_survey/map/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/directory/land_survey/map/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/land_survey/map/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/directory/land_survey/map/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/land_survey/map/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/directory/land_survey/map/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/land_survey/map/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/directory/land_survey/map/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/land_survey/map/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/directory/land_survey/map/8.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link/about/activity.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/activity.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link/about/anthem.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/anthem.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link/about/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/history.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link/about/leadership.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/leadership.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/about/position.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/position.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link/about/structure.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/structure.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link/branches/cherkasy.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/cherkasy.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link/branches/chernigiv.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/chernigiv.html" afterDir="false" />
@@ -49,6 +102,9 @@
       <change beforePath="$PROJECT_DIR$/link/npa.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/npa.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link/press_center/announcements.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/announcements.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link/press_center/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/events.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/press_center/magazines/magazine_2023.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/magazines/magazine_2023.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/press_center/magazines/magazine_2024.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/magazines/magazine_2024.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/press_center/magazines/magazine_2025.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/magazines/magazine_2025.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link/press_center/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/news.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link/press_center/photo_gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/photo_gallery.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link/square/1/square1.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/square/1/square1.html" afterDir="false" />
@@ -56,8 +112,10 @@
       <change beforePath="$PROJECT_DIR$/link/square/3/square3.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/square/3/square3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/link/square/4/square4.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/square/4/square4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/policy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/precision_farming.html" beforeDir="false" afterPath="$PROJECT_DIR$/precision_farming.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/press_center.html" beforeDir="false" afterPath="$PROJECT_DIR$/press_center.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/branches.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/branches.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +183,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/my_html/IOGU/first-dp/link/press_center/magazines&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/my_html/IOGU/first-dp/link/branches&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -138,11 +196,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\my_html\IOGU\first-dp\link\branches" />
       <recent name="D:\my_html\IOGU\first-dp\link\press_center\magazines" />
       <recent name="D:\my_html\IOGU\first-dp" />
       <recent name="D:\my_html\first-dp\link\branches" />
       <recent name="D:\my_html\first-dp\link\square" />
-      <recent name="D:\first-dp\link\branches" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\my_html\IOGU\first-dp\img" />
@@ -323,7 +381,10 @@
       <workItem from="1739219055188" duration="4063000" />
       <workItem from="1739790218673" duration="35000" />
       <workItem from="1740052305818" duration="704000" />
-      <workItem from="1740130163236" duration="1429000" />
+      <workItem from="1740130163236" duration="6829000" />
+      <workItem from="1740483463744" duration="2460000" />
+      <workItem from="1740922533860" duration="49895000" />
+      <workItem from="1740997170377" duration="18033000" />
     </task>
     <task id="LOCAL-00001" summary="added lieder page and photo gallery">
       <option name="closed" value="true" />
@@ -517,7 +578,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740426881817</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="rename branches">
+      <option name="closed" value="true" />
+      <created>1740427121950</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1740427121950</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,8 +620,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added table on main page" />
-    <MESSAGE value="fixed bugs on main page" />
     <MESSAGE value="added contact page and branches pages" />
     <MESSAGE value="changes link position_file" />
     <MESSAGE value="fix footer" />
@@ -576,7 +643,9 @@
     <MESSAGE value="added test link" />
     <MESSAGE value="improve header menu add ground link" />
     <MESSAGE value="created magazine 2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="created magazine 2025" />
+    <MESSAGE value="rename branches" />
+    <MESSAGE value="redesign and add content and improve branches pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="redesign and add content and improve branches pages" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

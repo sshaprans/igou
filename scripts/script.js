@@ -1,5 +1,10 @@
 "use strict"
-
+// main
+const eye = document.querySelector(".vision");
+const body = document.querySelector(".body");
+eye.addEventListener('click', () =>{
+    body.classList.toggle('poor-eyesight')
+})
 // modal
 const modal = document.querySelector("#modal");
 const modalBtn = document.querySelectorAll(".btn-js");
@@ -48,12 +53,7 @@ window.onclick = function(event) {
 
 
 
-// main
-const eye = document.querySelector(".vision");
-const body = document.querySelector(".body");
-eye.addEventListener('click', () =>{
-    body.classList.toggle('poor-eyesight')
-})
+
 
 const btnFixed = document.querySelector('.wrapper-contact-fixed');
 const btnFixedList = document.querySelector('.contact-fixed');
