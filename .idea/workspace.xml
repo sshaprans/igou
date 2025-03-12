@@ -4,40 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9cf08c6-f1f3-4abd-aa3c-960a8c81f59d" name="Changes" comment="added new for 8 march">
+    <list default="true" id="d9cf08c6-f1f3-4abd-aa3c-960a8c81f59d" name="Changes" comment="added news 12_03_24">
+      <change afterPath="$PROJECT_DIR$/gerb.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ground_partner.html" beforeDir="false" afterPath="$PROJECT_DIR$/ground_partner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/about/activity.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/activity.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/about/anthem.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/anthem.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/about/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/history.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/about/leadership.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/leadership.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/about/position.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/position.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/about/structure.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/structure.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/cherkasy.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/cherkasy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/dnipro.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/dnipro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches_of_du.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches_of_du.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/directions/edition.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/directions/edition.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/directions/government_procurement.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/directions/government_procurement.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/directions/international_activity.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/directions/international_activity.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/directions/land_survey.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/directions/land_survey.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/directions/monitoring_objects.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/directions/monitoring_objects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/npa.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/npa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/press_center/announcements.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/announcements.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/press_center/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/events.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/press_center/magazines/magazine_2023.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/magazines/magazine_2023.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/press_center/magazines/magazine_2024.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/magazines/magazine_2024.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/press_center/magazines/magazine_2025.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/magazines/magazine_2025.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/press_center/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/press_center/photo_gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/photo_gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/square/1/square1.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/square/1/square1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/square/2/square2.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/square/2/square2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/square/3/square3.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/square/3/square3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/square/4/square4.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/square/4/square4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/policy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/precision_farming.html" beforeDir="false" afterPath="$PROJECT_DIR$/precision_farming.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/press_center.html" beforeDir="false" afterPath="$PROJECT_DIR$/press_center.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/herson.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/herson.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/rivne.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/rivne.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,7 +283,8 @@
       <workItem from="1741182367067" duration="5630000" />
       <workItem from="1741609331399" duration="1281000" />
       <workItem from="1741622637701" duration="823000" />
-      <workItem from="1741762276823" duration="938000" />
+      <workItem from="1741762276823" duration="2432000" />
+      <workItem from="1741771746730" duration="5030000" />
     </task>
     <task id="LOCAL-00001" summary="added lieder page and photo gallery">
       <option name="closed" value="true" />
@@ -538,7 +510,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741521197965</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="added news 12_03_24">
+      <option name="closed" value="true" />
+      <created>1741765111585</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1741765111587</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,7 +552,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="fix footer 2.0" />
     <MESSAGE value="fixed branches pages" />
     <MESSAGE value="add news pages ang magazines" />
     <MESSAGE value="change name of branches" />
@@ -597,7 +576,8 @@
     <MESSAGE value="last files for improve branches pages" />
     <MESSAGE value="added photos for branches staff" />
     <MESSAGE value="added new for 8 march" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new for 8 march" />
+    <MESSAGE value="added news 12_03_24" />
+    <option name="LAST_COMMIT_MESSAGE" value="added news 12_03_24" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
