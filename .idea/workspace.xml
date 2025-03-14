@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9cf08c6-f1f3-4abd-aa3c-960a8c81f59d" name="Changes" comment="added news 12_03_24">
-      <change afterPath="$PROJECT_DIR$/gerb.svg" afterDir="false" />
+    <list default="true" id="d9cf08c6-f1f3-4abd-aa3c-960a8c81f59d" name="Changes" comment="added news 12_03_24 fixed mistake">
+      <change afterPath="$PROJECT_DIR$/img/servise.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/update/assets/img/icon/btn-back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/update/assets/img/icon/btn-front.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/update/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/herson.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/herson.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/rivne.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/rivne.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eye.svg" beforeDir="false" afterPath="$PROJECT_DIR$/update/eye.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gerb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ground_partner.html" beforeDir="false" afterPath="$PROJECT_DIR$/ground_partner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons8-сообщение-в-чате.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/press_center/magazines/magazine_2024.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/magazines/magazine_2024.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/update/logo.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +43,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="full_recoding" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -96,10 +104,11 @@
       <recent name="D:\my_html\first-dp\link\square" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\my_html\IOGU\first-dp\update" />
+      <recent name="D:\my_html\IOGU\first-dp" />
       <recent name="D:\my_html\IOGU\first-dp\img" />
       <recent name="D:\my_html\first-dp\link\square\1" />
       <recent name="D:\first-dp\link" />
-      <recent name="D:\first-dp" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -284,7 +293,8 @@
       <workItem from="1741609331399" duration="1281000" />
       <workItem from="1741622637701" duration="823000" />
       <workItem from="1741762276823" duration="2432000" />
-      <workItem from="1741771746730" duration="5030000" />
+      <workItem from="1741771746730" duration="12909000" />
+      <workItem from="1741915633756" duration="297000" />
     </task>
     <task id="LOCAL-00001" summary="added lieder page and photo gallery">
       <option name="closed" value="true" />
@@ -518,7 +528,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741765111587</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="added news 12_03_24 fixed mistake">
+      <option name="closed" value="true" />
+      <created>1741790005395</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1741790005395</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +570,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="fixed branches pages" />
     <MESSAGE value="add news pages ang magazines" />
     <MESSAGE value="change name of branches" />
     <MESSAGE value="added news 23-050-2024" />
@@ -577,7 +594,8 @@
     <MESSAGE value="added photos for branches staff" />
     <MESSAGE value="added new for 8 march" />
     <MESSAGE value="added news 12_03_24" />
-    <option name="LAST_COMMIT_MESSAGE" value="added news 12_03_24" />
+    <MESSAGE value="added news 12_03_24 fixed mistake" />
+    <option name="LAST_COMMIT_MESSAGE" value="added news 12_03_24 fixed mistake" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
