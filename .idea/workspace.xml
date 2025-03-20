@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9cf08c6-f1f3-4abd-aa3c-960a8c81f59d" name="Changes" comment="change director for chernihiv">
-      <change afterPath="$PROJECT_DIR$/map.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/branches/staff/chernigiv_der.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/branches/staff/chernigiv_der.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/about/anthem.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/about/anthem.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/chernigiv.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/chernigiv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/harkiv.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/harkiv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/mukolaiv.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/mukolaiv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/zakarpata.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/zakarpata.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -290,7 +287,8 @@
       <workItem from="1741771746730" duration="12909000" />
       <workItem from="1741915633756" duration="936000" />
       <workItem from="1741916826981" duration="1269000" />
-      <workItem from="1742206062576" duration="2181000" />
+      <workItem from="1742206062576" duration="4123000" />
+      <workItem from="1742492065348" duration="324000" />
     </task>
     <task id="LOCAL-00001" summary="added lieder page and photo gallery">
       <option name="closed" value="true" />
@@ -548,7 +546,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741916568238</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="change director for chernihiv">
+      <option name="closed" value="true" />
+      <created>1742227075753</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1742227075753</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
