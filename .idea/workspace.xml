@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9cf08c6-f1f3-4abd-aa3c-960a8c81f59d" name="Changes" comment="added news jika">
-      <change afterPath="$PROJECT_DIR$/img/magazine/2025/22_03_2024_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/magazine/2025/22_03_2024_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/magazine/2025/22_03_2024_main.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/magazine/2025/23_03_2025_1.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/magazine/2025/23_03_2025_2.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/magazine/2025/23_03_2025_main.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/magazine/2025/24_03_2025_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/magazine/2025/24_03_2025_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/magazine/2025/24_03_2025_main.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/branches/mukolaiv.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/branches/mukolaiv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/press_center/magazines/magazine_2025.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/press_center/magazines/magazine_2025.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,7 +292,8 @@
       <workItem from="1742494656808" duration="56000" />
       <workItem from="1742494829244" duration="17000" />
       <workItem from="1742765521790" duration="3670000" />
-      <workItem from="1742846489481" duration="632000" />
+      <workItem from="1742846489481" duration="4756000" />
+      <workItem from="1742918923502" duration="7490000" />
     </task>
     <task id="LOCAL-00001" summary="added lieder page and photo gallery">
       <option name="closed" value="true" />
@@ -576,7 +567,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742492608466</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="added news jika">
+      <option name="closed" value="true" />
+      <created>1742889621881</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1742889621887</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

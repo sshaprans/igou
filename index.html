@@ -11,7 +11,30 @@
     <link rel="stylesheet" href="./styles/swiper-bundle.min.css">
     <link rel="stylesheet" href="./styles/swiper.css">
     <link rel="stylesheet" href="./styles/styles.css">
-    <title>Інститут Охорони Ґрунтів України</title>
+    <title data-i18n="title">Інститут Охорони Ґрунтів України</title>
+    <style>
+        .nav-wrapper{
+            display: flex;
+            justify-content: space-between;
+        }
+        .lang_btns{
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .lang_btn{
+            background-color: var(--green-color);
+            border: none;
+            padding: 5px;
+            color: #bdbdbd;
+        }
+        .lang_btn.active {
+            background-color: #28a745;
+            color: #fff;
+        }
+
+
+    </style>
 </head>
 <body class="body">
     <header id="header">
@@ -429,7 +452,7 @@
                         <div class="logo-text">
                             <a href="https://www.kmu.gov.ua/" >
                                 <p class="logo-text-up">gov.ua</p>
-                                <p class="logo-text-down">Державні сайти</p>
+                                <p class="logo-text-down" data-i18n="state_websites">Державні сайти</p>
                             </a>
                         </div>
                     </div>
@@ -437,14 +460,14 @@
                         <svg class="eye" width="18" height="9" viewBox="0 0 18 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M17.8377 4.05C15.7882 1.575 12.752 0.15 9.56403 0H8.65317L7.13507 0.15C6.67964 0.225 6.14831 0.375 5.69288 0.525C5.23745 0.675 4.70611 0.9 4.25068 1.05C3.79525 1.275 3.33982 1.5 2.88439 1.8C2.58077 2.025 1.89763 2.55 1.59401 2.775C1.13858 3.15 0.75905 3.6 0.379525 3.975L0 4.5C0.227715 4.95 0.531335 5.325 0.91086 5.7C1.21448 5.25 1.59401 4.875 1.97353 4.5L2.04944 4.425L2.80849 7.05C3.41573 7.425 4.02297 7.8 4.63021 8.025L3.33982 3.375C3.79525 3.075 4.25068 2.775 4.70611 2.55L6.37602 8.7C6.90736 8.85 7.43869 8.925 8.04593 9L6.0724 1.95C6.52783 1.8 7.05917 1.725 7.5146 1.575L9.48813 8.925L11.0062 8.775C13.6629 8.325 16.016 6.975 17.7618 4.95C18.0654 4.725 18.0654 4.275 17.8377 4.05ZM12.1448 4.5C12.1448 5.55 11.5376 6.525 10.6267 7.05L10.3231 5.925C10.7785 5.55 11.0062 5.025 11.0062 4.5C11.0062 3.6 10.3231 2.775 9.41222 2.625L9.1086 1.5C10.7785 1.5 12.1448 2.85 12.1448 4.5ZM13.1316 6.675C13.8906 5.325 13.8906 3.675 13.1316 2.4C14.2701 2.925 15.3328 3.675 16.2437 4.575C15.3328 5.4 14.2701 6.15 13.1316 6.675Z" fill="white"/>
                         </svg>
-                        <p class="vision-text"> Людям із <br> порушенням зору</p>
+                        <p class="vision-text" data-i18n="vision_text">Людям із порушенням зору</p>
                     </div>
                 </div>
                 <div class="header-center">
                     <div class="line-box">
                         <a href="tel:1545"  rel="tel">
                             <p class="line-number">1545</p>
-                            <p class="line-text">Урядова гаряча лінія</p>
+                            <p class="line-text" data-i18n="hotline">Урядова гаряча лінія</p>
                         </a>
                     </div>
                     <div class="header-title-box">
@@ -452,113 +475,120 @@
                             <path d="M11.992 0C11.0601 1.03173 10.4921 2.38137 10.4921 3.86363C10.5471 7.11777 10.9561 10.368 10.9921 13.6153C11.0661 16.6481 10.1342 19.4956 9.00025 22.2748C8.62228 23.0423 8.21432 23.7932 7.80535 24.546L6.60545 24.31C5.52254 24.0994 4.8186 23.0725 5.03558 22.0164C5.22457 21.0929 6.0585 20.4464 6.98842 20.4464L7.42638 20.4922L6.44946 12.5348C6.13049 8.99497 4.25665 5.88418 1.49988 3.86558C1.02591 3.51842 0.522956 3.20051 0 2.92064V31.1713H6.68744C7.1874 33.814 8.68128 36.1252 10.7811 37.705C11.2801 38.0404 11.699 38.4832 12 39C12.3 38.4832 12.7189 38.0404 13.2189 37.705C15.3187 36.1213 16.8126 33.815 17.3126 31.1713H24V2.92064C23.477 3.20051 22.9741 3.51842 22.5001 3.86558C19.7404 5.8871 17.8705 8.99497 17.5505 12.5348L16.5736 20.4922L17.0116 20.4464C17.9415 20.4503 18.7754 21.092 18.9644 22.0164C19.1804 23.0725 18.4765 24.0984 17.3946 24.31L16.1947 24.546C15.7857 23.7942 15.3767 23.0433 14.9998 22.2748C13.8648 19.4976 12.9329 16.6501 13.0069 13.6153C13.0429 10.3583 13.4519 7.11094 13.5069 3.86363C13.5069 2.38137 12.9389 1.03563 12.007 0H11.992ZM1.99283 6.99197C3.28673 8.47326 4.15565 10.3173 4.41263 12.3486L5.21257 18.9115C4.18765 19.4088 3.41272 20.3216 3.11874 21.4265H1.98583V6.99392L1.99283 6.99197ZM21.9912 6.99197V21.4245H20.8583C20.5663 20.3206 19.7894 19.4078 18.7644 18.9095L19.5644 12.3466C19.8233 10.3173 20.6923 8.47131 21.9842 6.98905L21.9912 6.99197ZM11.992 20.186C12.529 21.8994 13.2679 23.5309 14.1868 25.0404C13.3129 25.2989 12.553 25.802 11.992 26.4798C11.431 25.802 10.6711 25.2998 9.79718 25.0395C10.7161 23.527 11.455 21.8994 11.992 20.186ZM1.99283 23.3787H3.12574C3.48271 24.7255 4.56062 25.7884 5.92551 26.1599L6.88643 26.3735C6.62945 27.2824 6.48846 28.2361 6.48846 29.2307H1.98883V23.3797L1.99283 23.3787ZM20.8613 23.3787H21.9942V29.2298H17.4945C17.4945 28.2409 17.3536 27.2824 17.0966 26.3725L18.0575 26.159C19.4274 25.7874 20.5043 24.7235 20.8573 23.3778L20.8613 23.3787ZM8.84226 26.8211C10.0552 26.9878 10.9901 28.0011 10.9901 29.2288H8.49029C8.49029 28.3931 8.61728 27.5866 8.84226 26.8211ZM15.1387 26.8211C15.3637 27.5866 15.4907 28.3911 15.4907 29.2288H12.9909C12.9909 27.9991 13.9258 26.9878 15.1387 26.8211ZM8.71927 31.1801H10.9921V35.2856C9.89218 34.1593 9.09224 32.7501 8.71927 31.1801ZM12.9919 31.1801H15.2647C14.8968 32.7501 14.0948 34.1612 12.9919 35.2856V31.1801Z" fill="#FFD500"/>
                         </svg>
                         <h1 class="header-title">
-                            <span>ДЕРЖАВНА УСТАНОВА</span>
-                            <span>”ІНСТИТУТ ОХОРОНИ ҐРУНТІВ УКРАЇНИ”</span>
+                            <span data-i18n="h_title">ДЕРЖАВНА УСТАНОВА</span>
+                            <span data-i18n="h_title2">”ІНСТИТУТ ОХОРОНИ ҐРУНТІВ УКРАЇНИ”</span>
                         </h1>
                     </div>
                     <div class="line-box">
                         <a href="tel:+380443565321"  rel="tel">
                             <p class="line-number">(044) 356-53-21</p>
-                            <p class="line-text">Гаряча лінія</p>
+                            <p class="line-text" data-i18n="hotline_text">Гаряча лінія</p>
                         </a>
                     </div>
                 </div>
-                <nav class="nav-wrapper">
+                <nav class="nav-wrapper" >
                     <ul class="nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="./about.html"  rel="about">Про нас</a>
+                            <a class="nav-link" href="./about.html" rel="about" data-i18n="about">Про нас</a>
                             <ul class="nav-list">
                                 <li class="nav-list-item">
-                                    <a class="nav-list-link" href="./link/about/history.html" >
+                                    <a class="nav-list-link" href="./link/about/history.html" data-i18n="history">
                                         Історія створення
                                     </a>
                                 </li>
                                 <li class="nav-list-item">
-                                    <a class="nav-list-link" href="./link/about/activity.html" >
+                                    <a class="nav-list-link" href="./link/about/activity.html" data-i18n="activity">
                                         Діяльність
                                     </a>
                                 </li>
                                 <li class="nav-list-item">
-                                    <a class="nav-list-link" href="./link/about/leadership.html" >
+                                    <a class="nav-list-link" href="./link/about/leadership.html" data-i18n="leadership">
                                         Керівництво
                                     </a>
                                 </li>
                                 <li class="nav-list-item">
-                                    <a class="nav-list-link" href="./literature/position_file.pdf">
+                                    <a class="nav-list-link" href="./literature/position_file.pdf" data-i18n="regulation">
                                         Положення
                                     </a>
                                 </li>
                                 <li class="nav-list-item">
-                                    <a class="nav-list-link" href="./link/about/structure.html" >
+                                    <a class="nav-list-link" href="./link/about/structure.html" data-i18n="structure">
                                         Структура
                                     </a>
                                 </li>
                                 <li class="nav-list-item">
-                                    <a class="nav-list-link" href="./link/about/anthem.html" >
+                                    <a class="nav-list-link" href="./link/about/anthem.html" data-i18n="anthem">
                                         Гімн установи
                                     </a>
                                 </li>
                             </ul>
                         </li>
-
                         <li class="nav-item">
-                            <a class="nav-link" href="./directions.html"   rel="directions">Напрями</a>
+                            <a class="nav-link" href="./directions.html" rel="directions" data-i18n="directions">Напрями</a>
                             <ul class="nav-list">
                                 <li class="nav-list-item">
-                                    <a class="nav-list-link" href="./ground_partner.html">
+                                    <a class="nav-list-link" href="./ground_partner.html" data-i18n="soil_partnership">
                                         Українське ґрунтове партнерство
                                     </a>
                                 </li>
                                 <li class="nav-list-item">
-                                    <a class="nav-list-link" href="./link/directions/land_survey.html">
+                                    <a class="nav-list-link" href="./link/directions/land_survey.html" data-i18n="land_survey">
                                         Обстеження сільськогосподарських угідь
                                     </a>
                                 </li>
                                 <li class="nav-list-item">
-                                    <a class="nav-list-link" href="./link/directions/monitoring_objects.html">
+                                    <a class="nav-list-link" href="./link/directions/monitoring_objects.html" data-i18n="monitoring">
                                         Моніторинг об'єктів довкілля
                                     </a>
                                 </li>
                                 <li class="nav-list-item">
-                                    <a class="nav-list-link" href="./link/directions/edition.html">
+                                    <a class="nav-list-link" href="./link/directions/edition.html" data-i18n="edition">
                                         Видання
                                     </a>
                                 </li>
                                 <li class="nav-list-item">
-                                    <a class="nav-list-link" href="./link/directions/international_activity.html">
+                                    <a class="nav-list-link" href="./link/directions/international_activity.html" data-i18n="international_activity">
                                         Міжнародна діяльність
                                     </a>
                                 </li>
                                 <li class="nav-list-item">
-                                    <a class="nav-list-link" href="link/directions/government_procurement.html">
+                                    <a class="nav-list-link" href="link/directions/government_procurement.html" data-i18n="government_procurement">
                                         Державні закупівлі
                                     </a>
                                 </li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link not-list" href="./link/npa.html"   rel="npa">НПА</a>
+                            <a class="nav-link not-list" href="./link/npa.html" rel="npa" data-i18n="npa">НПА</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link not-list" href="./link/branches_of_du.html" rel="Branches of DU">Центри ДУ</a>
+                            <a class="nav-link not-list" href="./link/branches_of_du.html" rel="branches_of_du" data-i18n="branches_of_du">Центри ДУ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./press_center.html"   rel="press center">Прес-центр</a>
+                            <a class="nav-link" href="./press_center.html" rel="press_center" data-i18n="press_center">Прес-центр</a>
                             <ul class="nav-list">
                                 <li class="nav-list-item">
-                                    <a class="nav-list-link" href="./link/press_center/news.html">
+                                    <a class="nav-list-link" href="./link/press_center/news.html" data-i18n="news">
                                         Новини
                                     </a>
                                 </li>
                                 <li class="nav-list-item">
-                                    <a class="nav-list-link" href="./link/press_center/photo_gallery.html">
+                                    <a class="nav-list-link" href="./link/press_center/photo_gallery.html" data-i18n="photo_gallery">
                                         Фотогалерея
                                     </a>
                                 </li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link not-list" href="./link/contacts.html"   rel="contacts">Контакти</a>
+                            <a class="nav-link not-list" href="./link/contacts.html" rel="contacts" data-i18n="contacts">Контакти</a>
+                        </li>
+                    </ul>
+                    <ul class="lang_btns">
+                        <li>
+                            <button  class="lang_btn" id="ukButton" onclick="setLanguage('uk')">Укр</button>
+                        </li>
+                        <li>
+                            <button class="lang_btn" id="enButton" onclick="setLanguage('en')">Eng</button>
                         </li>
                     </ul>
                 </nav>
@@ -567,71 +597,30 @@
     </header>
     <main id="main">
         <div class="main-container">
+
             <article class="wrapper-ticker">
                 <div class="ticker">
                     <div class="ticker-text">
-<!--                          <div class="ticker-link">-->
-<!--                            <p class="ticker-p ticker-p&#45;&#45;red">-->
-<!--                                З технічних причин, основна <br>пошта тимчасово не працює.-->
-<!--                            </p>-->
-<!--                            <p class="ticker-p ticker-p&#45;&#45;red">-->
-
-<!--                                ioguinform@gmail.com-->
-<!--                            </p>-->
-<!--                            <p class="ticker-p ticker-p&#45;&#45;red">-->
-<!--                                Для надсилання електронних листів, <br>використовуйте резервну адресу пошти.-->
-<!--                            </p>-->
-<!--                            <p class="ticker-p ticker-p&#45;&#45;red">-->
-
-<!--                                ioguinform@gmail.com-->
-<!--                            </p>-->
-<!--                        </div>-->
-                        <a class="ticker-link"   rel="united24">
-                            <p class="ticker-p">
-                                Слава Україні! <br>
-                                Героям Слава!
-                            </p>
+                        <a class="ticker-link" rel="united24">
+                            <p class="ticker-p" data-i18n="glory_to_ukraine">Слава Україні! Героям Слава!</p>
                             <img class="flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Ukraine_%281991%E2%80%931992%29.svg/1200px-Flag_of_Ukraine_%281991%E2%80%931992%29.svg.png" alt="Flag of Ukraine (1991–1992).svg">
-                            <p class="ticker-p">
-                                Підтримайте Україну
-                                <br>
-                                перекажіть гроші для ЗСУ!
-                            </p>
+                            <p class="ticker-p" data-i18n="support_ukraine">Підтримайте Україну перекажіть гроші для ЗСУ!</p>
                             <img class="emblem" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Lesser_Coat_of_Arms_of_Ukraine.svg/1200px-Lesser_Coat_of_Arms_of_Ukraine.svg.png" alt="Lesser Coat of Arms of Ukraine.svg">
-                            <p class="ticker-p">
-                                Слава нації!
-                                <br>
-                                Смерть ворогам!
-                            </p>
+                            <p class="ticker-p" data-i18n="glory_nation">Слава нації! Смерть ворогам!</p>
                             <img class="flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Ukraine_%281991%E2%80%931992%29.svg/1200px-Flag_of_Ukraine_%281991%E2%80%931992%29.svg.png" alt="Flag of Ukraine (1991–1992).svg">
-                            <p class="ticker-p">
-                                Приєднуйтесь до <br/> національного збору
-                            </p>
+                            <p class="ticker-p" data-i18n="join_national_assembly">Приєднуйтесь до  національного збору</p>
                             <img class="emblem" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Lesser_Coat_of_Arms_of_Ukraine.svg/1200px-Lesser_Coat_of_Arms_of_Ukraine.svg.png" alt="Lesser Coat of Arms of Ukraine.svg">
                         </a>
                     </div>
                     <div class="ticker-text">
-                        <a class="ticker-link"   rel="united24">
-                            <p class="ticker-p">
-                                Слава Україні! <br>
-                                Героям Слава!
-                            </p>
+                        <a class="ticker-link" rel="united24">
+                            <p class="ticker-p" data-i18n="glory_to_ukraine">Слава Україні! Героям Слава!</p>
                             <img class="flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Ukraine_%281991%E2%80%931992%29.svg/1200px-Flag_of_Ukraine_%281991%E2%80%931992%29.svg.png" alt="Flag of Ukraine (1991–1992).svg">
-                            <p class="ticker-p">
-                                Підтримайте Україну
-                                <br>
-                                перекажіть гроші для ЗСУ!
-                            </p>
+                            <p class="ticker-p" data-i18n="support_ukraine">Підтримайте Україну перекажіть гроші для ЗСУ!</p>
                             <img class="emblem" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Lesser_Coat_of_Arms_of_Ukraine.svg/1200px-Lesser_Coat_of_Arms_of_Ukraine.svg.png" alt="Lesser Coat of Arms of Ukraine.svg">
-                            <p class="ticker-p">
-                                Слава нації!
-                                <br>
-                                Смерть ворогам!
-                            </p>
+                            <p class="ticker-p" data-i18n="glory_nation">Слава нації! Смерть ворогам!</p>
                             <img class="flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Ukraine_%281991%E2%80%931992%29.svg/1200px-Flag_of_Ukraine_%281991%E2%80%931992%29.svg.png" alt="Flag of Ukraine (1991–1992).svg">
-                            <p class="ticker-p">
-                                Приєднуйтесь до <br/> національного збору
-                            </p>
+                            <p class="ticker-p" data-i18n="join_national_assembly">Приєднуйтесь до  національного збору</p>
                             <img class="emblem" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Lesser_Coat_of_Arms_of_Ukraine.svg/1200px-Lesser_Coat_of_Arms_of_Ukraine.svg.png" alt="Lesser Coat of Arms of Ukraine.svg">
                         </a>
                     </div>
@@ -712,9 +701,7 @@
                                     C276.75,290.17,279.37,282.38,288.8,267.44z"/>
                             </g>
                             </svg>
-                                <p class="offer-text">
-                                    Агрохімічне обстеження грунтів
-                                </p>
+                                <p class="offer-text" data-i18n="agrochemical_survey">Агрохімічне обстеження грунтів</p>
                             </a>
                         </div>
                         <div class="offer-box">
@@ -788,9 +775,7 @@
 		C143.32,281.3,138.28,281.3,135.17,284.41z"/>
 </g>
 </svg>
-                                <p class="offer-text">
-                                    Землевпорядні роботи
-                                </p>
+                                <p class="offer-text" data-i18n="land_works">Землевпорядні роботи</p>
                             </a>
                         </div>
                         <div class="offer-box">
@@ -848,9 +833,7 @@
                                     C305.68,147.88,308.94,151.14,312.96,151.14z"/>
                             </g>
                             </svg>
-                                <p class="offer-text">
-                                    Аналіз якісного складу добрив та агрохімікатів
-                                </p>
+                                <p class="offer-text" data-i18n="fertilizer_analysis">Аналіз якісного складу добрив та агрохімікатів</p>
                             </a>
                         </div>
                         <div class="offer-box">
@@ -920,9 +903,7 @@
                                     c0.04,0,0.08,0,0.11,0c3.24-0.04,6.28-1.64,8.14-4.29l18.45-26.27h9.33L421.15,356.75z"/>
                             </g>
                             </svg>
-                                <p class="offer-text">
-                                    Дослідження якості й безпеки с/г продукції
-                                </p>
+                                <p class="offer-text" data-i18n="quality_safety">Дослідження якості й безпеки с/г продукції</p>
                             </a>
                         </div>
                     </div>
@@ -937,12 +918,14 @@
                         <img src="./img/sale_block_mobile.jpg" class="sale-block__image sale-block__image-mobile" alt="Точне землеробство — новий стандарт ефективності">
 
                         <div class="sale-block__content">
-                            <h2 class="sale-block__title">
-                                Точне землеробство — новий <span class="sale_block__text-wrap">стандарт ефективності</span>
+                            <h2 class="sale-block__title" data-i18n="precision_agriculture_title">
+                                Точне землеробство — новий <span class="sale_block__text-wrap" data-i18n="precision_agriculture_subtitle">стандарт ефективності</span>
                             </h2>
-                            <p class="sale-block__description sale-block__description--not-mobile" >Інноваційна технологія для високої врожайності <span class="sale_block__text-wrap">та економії ресурсів!</span></p>
+                            <p class="sale-block__description sale-block__description--not-mobile" data-i18n="innovative_technology">
+                                Інноваційна технологія для високої врожайності <span class="sale_block__text-wrap" data-i18n="resource_savings">та економії ресурсів!</span>
+                            </p>
                             <a href="./precision_farming.html" class="link-btn">
-                                <span class="link-btn__text">Замовити послугу</span>
+                                <span class="link-btn__text" data-i18n="order_service_button">Замовити послугу</span>
                             </a>
 <!--                            <a href="./precision_farming.html" class="link-btn"></a>-->
                         </div>
@@ -954,10 +937,10 @@
                 <div class="container">
                     <div class="news-wrapper">
                         <div class="news-box">
-                            <h3 class="main-title">
+                            <h3 class="main-title" data-i18n="latest_news_title">
                                 Останні новини
                             </h3>
-                            <a class="all-news" href="./link/press_center/news.html" > Усі новини...</a>
+<!--                            <a class="all-news" href="./link/press_center/news.html" > Усі новини...</a>-->
                             <div class="swiper-wrapper">
                                 <div class="swiper">
                                     <div class="swiper-wrapper">
@@ -965,7 +948,8 @@
                                             <a href="./link/press_center/magazines/magazine_2025.html#24_03_2025"  class="swiper-link" >
                                                 <img class="swiper-img" src="./img/magazine/2025/24_03_2025_main.jpg" alt="2024_1" loading="lazy">
                                                 <div class="swiper-text">
-                                                    <p>
+
+                                                    <p data-i18n="meeting_with_japanese_delegation">
                                                         Зустріч з японською делегацією щодо впровадження нанобульбошкових технологій
                                                     </p>
                                                 </div>
@@ -975,7 +959,7 @@
                                             <a href="./link/press_center/magazines/magazine_2025.html#23_03_2025"  class="swiper-link" >
                                                 <img class="swiper-img" src="./img/magazine/2025/23_03_2025_main.jpg" alt="2024_1" loading="lazy">
                                                 <div class="swiper-text">
-                                                    <p>
+                                                    <p data-i18n="agricultural_department_meeting">
                                                         Участь у виїзному засіданні колегії Департаменту агропромислового розвитку Вінницької ОВА
                                                     </p>
                                                 </div>
@@ -985,7 +969,7 @@
                                             <a href="./link/press_center/magazines/magazine_2025.html#22_03_2025"  class="swiper-link" >
                                                 <img class="swiper-img" src="./img/magazine/2025/22_03_2024_main.jpg" alt="2024_1" loading="lazy">
                                                 <div class="swiper-text">
-                                                    <p>
+                                                    <p data-i18n="soil_damage_training">
                                                         Навчання з оцінки пошкоджених ґрунтів
                                                     </p>
                                                 </div>
@@ -995,7 +979,7 @@
                                             <a href="./link/press_center/magazines/magazine_2025.html#12_03_2025"  class="swiper-link" >
                                                 <img class="swiper-img" src="./img/magazine/2025/12_03_2025.jpg" alt="2024_1" loading="lazy">
                                                 <div class="swiper-text">
-                                                    <p>
+                                                    <p data-i18n="online_meeting_soil_use">
                                                         Фахівці ДУ «Держґрунтохорона» взяли участь в онлайн нараді щодо інтегрованого землекористування
                                                     </p>
                                                 </div>
@@ -1005,7 +989,7 @@
                                             <a href="./link/press_center/magazines/magazine_2025.html#10_03_2025"  class="swiper-link" >
                                                 <img class="swiper-img" src="./img/magazine/2025/10_03_2025.jpg" alt="2024_1" loading="lazy">
                                                 <div class="swiper-text">
-                                                    <p>
+                                                    <p data-i18n="agronomy_education_program">
                                                         Фахівці ДУ «Держґрунтохорона» взяли участь в обговоренні освітньої програми «Агрономія»
                                                     </p>
                                                 </div>
@@ -1015,194 +999,12 @@
                                             <a href="./link/press_center/magazines/magazine_2025.html#09_03_2025"  class="swiper-link" >
                                                 <img class="swiper-img" src="./img/magazine/2025/09_03_2025.jpg" alt="2024_1" loading="lazy">
                                                 <div class="swiper-text">
-                                                    <p>
+                                                    <p data-i18n="women_day_congratulation">
                                                         Зі святом весни та краси, дорогі жінки! 💐
                                                     </p>
                                                 </div>
                                             </a>
                                         </div>
-                                        <div class="swiper-slide">
-                                            <a href="./link/press_center/magazines/magazine_2025.html#24_02_2025"  class="swiper-link" >
-                                                <img class="swiper-img" src="./img/magazine/2025/24_02_2025.jpg" alt="2024_1" loading="lazy">
-                                                <div class="swiper-text">
-                                                    <p>
-                                                        Міжнародна конференція з ґрунтозахисних технологій
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./link/press_center/magazines/magazine_2025.html#10_02_2025"  class="swiper-link" >
-                                                <img class="swiper-img" src="./img/magazine/2025/10_02_2025.jpg" alt="2024_1" loading="lazy">
-                                                <div class="swiper-text">
-                                                    <p>
-                                                        Вуглецеве землеробство на Полтавщині
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./link/press_center/magazines/magazine_2024.html#31_12_2024"  class="swiper-link" >
-                                                <img class="swiper-img" src="./img/magazine/2024/31_12_2024.jpg" alt="2024_1" loading="lazy">
-                                                <div class="swiper-text">
-                                                    <p>
-                                                        З Новим Роком!
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./link/press_center/magazines/magazine_2024.html#25_12_2024"  class="swiper-link" >
-                                                <img class="swiper-img" src="./img/magazine/2024/25_12_2024.jpg" alt="2024_1" loading="lazy">
-                                                <div class="swiper-text">
-                                                    <p>
-                                                        З Різдвом Христовим!
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./link/press_center/magazines/magazine_2024.html#12_12_2024"  class="swiper-link" >
-                                                <img class="swiper-img" src="./img/magazine/2024/12_12_2024_1.jpg" alt="2024_1" loading="lazy">
-                                                <div class="swiper-text">
-                                                    <p>
-                                                        Національний виклик: деградація ґрунтів чи відновлення їх родючості?
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./link/press_center/magazines/magazine_2024.html#06_12_2024"  class="swiper-link" >
-                                                <img class="swiper-img" src="./img/magazine/2024/06_12_2024.jpg" alt="2024_1" loading="lazy">
-                                                <div class="swiper-text">
-                                                    <p>
-                                                        «Реалії імплементації Нітратної директиви ЄС»
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./link/press_center/magazines/magazine_2024.html#05_12_2024"  class="swiper-link" >
-                                                <img class="swiper-img" src="./img/magazine/2024/05_12_2024.jpg" alt="2024_1" loading="lazy">
-                                                <div class="swiper-text">
-                                                    <p>
-                                                        Всесвітній день ґрунтів
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./link/press_center/magazines/magazine_2024.html#25_11_2024"  class="swiper-link" >
-                                                <img class="swiper-img" src="./img/magazine/2024/12_11_2024.jpg" alt="2024_1" loading="lazy">
-                                                <div class="swiper-text">
-                                                    <p>
-                                                        Затверджений перелік учасників конкурсу на зайняття вакантних наукових посад
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./link/press_center/magazines/magazine_2024.html#24_11_2024"  class="swiper-link" >
-                                                <img class="swiper-img" src="./img/magazine/2024/24_11_2024.jpg" alt="2024_1" loading="lazy">
-                                                <div class="swiper-text">
-                                                    <p>
-                                                        Нагородження Шило Любові Григорівни
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./link/press_center/magazines/magazine_2024.html#15_11_2024"  class="swiper-link" >
-                                                <img class="swiper-img" src="./img/magazine/2024/15_11_2024.jpg" alt="2024_1" loading="lazy">
-                                                <div class="swiper-text">
-                                                    <p>
-                                                        З Днем працівників сільського господарства!
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./link/press_center/magazines/magazine_2024.html#12_11_2024_3"  class="swiper-link" >
-                                                <img class="swiper-img" src="https://file.ticketforevent.com/logos/126035/header.jpeg" alt="2024_1" loading="lazy">
-                                                <div class="swiper-text">
-                                                    <p>
-                                                        Заходи для підтримки аграрного сектору
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./link/press_center/magazines/magazine_2024.html#12_11_2024_2"  class="swiper-link" >
-                                                <img class="swiper-img" src="./img/magazine/2024/12_11_2024_2.jpg" alt="2024_1" loading="lazy">
-                                                <div class="swiper-text">
-                                                    <p>
-                                                        Четвертий форум стейкхолдерів Європейської ґрунтової обсерваторії (EUSO)
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./link/press_center/magazines/magazine_2024.html#12_11_2024"  class="swiper-link" >
-                                                <img class="swiper-img" src="./img/magazine/2024/12_11_2024.jpg" alt="2024_1" loading="lazy">
-                                                <div class="swiper-text">
-                                                    <p>
-                                                        Перелік переможців конкурсу на заміщення вакантних наукових посад
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./link/press_center/magazines/magazine_2024.html#06_11_2024"  class="swiper-link" >
-                                                <img class="swiper-img" src="./img/magazine/2024/06_10_2024.jpg" alt="2024_1" loading="lazy">
-                                                <div class="swiper-text">
-                                                    <p>
-                                                        ArcGIS Pro: Основні робочі процеси
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./link/press_center/magazines/magazine_2024.html#29_10_2024"  class="swiper-link" >
-                                                <img class="swiper-img" src="./img/magazine/2024/19_08_2024.jpg" alt="2024_1" loading="lazy">
-                                                <div class="swiper-text">
-                                                    <p>
-                                                        Оголошення  конкурсу на заміщення вакантних наукових посад
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./link/press_center/magazines/magazine_2024.html#22_10_2024"  class="swiper-link" >
-                                                <img class="swiper-img" src="./img/magazine/2024/22_10_2024.jpg" alt="2024_1" loading="lazy">
-                                                <div class="swiper-text">
-                                                    <p>
-                                                        Навчання фахівців ДУ «Держґрунтохорона» з використання
-                                                        мобільних автоматизованих комплексів відбору зразків ґрунту
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./link/press_center/magazines/magazine_2024.html#21_10_2024"  class="swiper-link" >
-                                                <img class="swiper-img" src="./img/magazine/2024/21_10_2024.jpg" alt="2024_1" loading="lazy">
-                                                <div class="swiper-text">
-                                                    <p>
-                                                        ДУ «Держґрунтохорона» в рамках співпраці з Японським агентством міжнародного співробітництва (JICA)
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <a href="./link/press_center/magazines/magazine_2024.html#18_10_2024"  class="swiper-link" >
-                                                <img class="swiper-img" src="./img/magazine/2024/18_10_2024.jpg" alt="2024_1" loading="lazy">
-                                                <div class="swiper-text">
-                                                    <p>
-                                                        Керівник ДУ «Держґрунтохорона» з робочим візитом відвідав Хмельниччину!
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
-
                                      </div>
                                 </div>
                                 <div class="swiper-btn swiper-button-prev"></div>
@@ -1211,7 +1013,7 @@
 
                         </div>
                         <div class="npa-wrapper">
-                            <h3 class="main-title">
+                            <h3 class="main-title" data-i18n="announcements_title">
                                 Анонси
                             </h3>
 <!--                            <a class="all-npa" href="./link/npa.html" >Усі НПА...
@@ -1220,14 +1022,16 @@
                             <div class="npa">
                                 <div class="npa-link">
                                     <a href="./link/press_center/magazines/magazine_2024.html#08_10_2024">
-                                        <p class="npa-link-title" ><span></span>
-                                            4 грудня 2024 року - Всеукраїнська науково-практична конференція «Реалії імплементації нітратної директиви ЄС»</p>
+                                        <p class="npa-link-title" data-i18n="conference_1">
+                                            <span></span> 4 грудня 2024 року - Всеукраїнська науково-практична конференція «Реалії імплементації нітратної директиви ЄС»
+                                        </p>
                                     </a>
                                 </div>
                                 <div class="npa-link">
                                     <a href="./link/press_center/magazines/magazine_2024.html#30_04_2024">
-                                        <p class="npa-link-title" ><span></span>
-                                            25 липня 2024 - Міжнародна науково-практична конференція «Моніторинг ґрунтів</p>
+                                        <p class="npa-link-title" data-i18n="conference_2">
+                                        <span></span> 25 липня 2024 - Міжнародна науково-практична конференція «Моніторинг ґрунтів»
+                                        </p>
                                     </a>
                                 </div>
 
@@ -1239,173 +1043,142 @@
             <section id="map">
                 <div class="container">
                     <div class="map-wrapper">
-                        <h3 class="main-title">
-                            Центри ДУ
-                        </h3>
+                        <h3 class="main-title" data-i18n="du_centers_title">Центри ДУ</h3>
                         <div class="map_box">
                             <div class="map_box_table">
                                 <table class="map_table">
-                                    <caption class="table_title">Інформація по області
-                                    </caption>
-                                    <tbody class="tbody">
+                                    <caption class="table_title" data-i18n="information_by_region">Інформація по області</caption>
+                                    <thead>
                                     <tr class="table_header">
-                                        <td >Область</td>
-                                        <td >Угіддя тис. га</td>
-                                        <td >Рілля тис. га</td>
-
+                                        <td data-i18n="region">Область</td>
+                                        <td data-i18n="land_area">Угіддя тис. га</td>
+                                        <td data-i18n="plow_land">Рілля тис. га</td>
                                     </tr>
+                                    </thead>
+                                    <tbody class="tbody">
                                     <tr class="region-map">
-                                        <td >АР Крим
-                                        </td>
-                                        <td>1820
-                                        </td>
+                                        <td data-i18n="crimea">АР Крим</td>
+                                        <td>1820</td>
                                         <td>1284</td>
                                     </tr>
                                     <tr class="region-map">
-                                        <td >Вінницька
-                                        </td>
-                                        <td>2012
-                                        </td>
+                                        <td data-i18n="vinnytsia">Вінницька</td>
+                                        <td>2012</td>
                                         <td>1730</td>
                                     </tr>
                                     <tr class="region-map">
-                                        <td>Волинська
-                                        </td>
-                                        <td>1048
-                                        </td>
+                                        <td data-i18n="volyn">Волинська</td>
+                                        <td>1048</td>
                                         <td>672</td>
                                     </tr>
                                     <tr class="region-map">
-                                        <td >Дніпропетровська
-                                        </td>
-                                        <td>2512
-                                        </td>
+                                        <td data-i18n="dnepropetrovsk">Дніпропетровська</td>
+                                        <td>2512</td>
                                         <td>2127</td>
                                     </tr>
                                     <tr class="region-map">
-                                        <td >Донецька</td>
-                                        <td>2044
-                                        </td>
+                                        <td data-i18n="donetsk">Донецька</td>
+                                        <td>2044</td>
                                         <td>1654</td>
                                     </tr>
                                     <tr class="region-map">
-                                        <td >Житомирська</td>
-                                        <td>1504
-                                        </td>
+                                        <td data-i18n="zhytomyr">Житомирська</td>
+                                        <td>1504</td>
                                         <td>1144</td>
                                     </tr>
                                     <tr class="region-map">
-                                        <td >Закарпатська</td>
-                                        <td>451
-                                        </td>
+                                        <td data-i18n="zakarpattia">Закарпатська</td>
+                                        <td>451</td>
                                         <td>200</td>
                                     </tr>
                                     <tr class="region-map">
-                                        <td >Запорізька</td>
-                                        <td>2238
-                                        </td>
+                                        <td data-i18n="zaporizhzhia">Запорізька</td>
+                                        <td>2238</td>
                                         <td>1901</td>
                                     </tr>
                                     <tr class="region-map">
-                                        <td >Івано-Франківська</td>
-                                        <td>621
-                                        </td>
+                                        <td data-i18n="ivano_frankivsk">Івано-Франківська</td>
+                                        <td>621</td>
                                         <td>401</td>
                                     </tr>
                                     <tr class="region-map">
-                                        <td >Київська</td>
-                                        <td>1609
-                                        </td>
+                                        <td data-i18n="kyiv">Київська</td>
+                                        <td>1609</td>
                                         <td>1321</td>
                                     </tr>
                                     <tr class="region-map">
-                                        <td >Кіровоградська</td>
-                                        <td>2032
-                                        </td>
+                                        <td data-i18n="kirovograd">Кіровоградська</td>
+                                        <td>2032</td>
                                         <td>1769</td>
                                     </tr>
                                     <tr class="region-map">
-                                        <td >Луганська</td>
-                                        <td>1907
-                                        </td>
+                                        <td data-i18n="luhansk">Луганська</td>
+                                        <td>1907</td>
                                         <td>1275</td>
                                     </tr>
                                     <tr class="region-map">
-                                        <td >Львівська</td>
-                                        <td>1240
-                                        </td>
+                                        <td data-i18n="lviv">Львівська</td>
+                                        <td>1240</td>
                                         <td>771</td>
                                     </tr>
                                     <tr class="region-map">
-                                        <td >Миколаївська</td>
-                                        <td>2000
-                                        </td>
+                                        <td data-i18n="mykolaiv">Миколаївська</td>
+                                        <td>2000</td>
                                         <td>1708</td>
                                     </tr>
                                     <tr class="region-map">
-                                        <td >Одеська</td>
-                                        <td>2588
-                                        </td>
+                                        <td data-i18n="odesa">Одеська</td>
+                                        <td>2588</td>
                                         <td>2077</td>
                                     </tr>
                                     <tr class="region-map">
-                                        <td >Полтавська</td>
-                                        <td>2167
-                                        </td>
+                                        <td data-i18n="poltava">Полтавська</td>
+                                        <td>2167</td>
                                         <td>1817</td>
                                     </tr>
                                     <tr class="region-map">
-                                        <td >Рівненська</td>
-                                        <td>922
-                                        </td>
+                                        <td data-i18n="rivno">Рівненська</td>
+                                        <td>922</td>
                                         <td>658</td>
                                     </tr>
                                     <tr class="region-map">
-                                        <td >Сумська</td>
-                                        <td>1659
-                                        </td>
+                                        <td data-i18n="sumy">Сумська</td>
+                                        <td>1659</td>
                                         <td>1235</td>
                                     </tr>
                                     <tr class="region-map">
-                                        <td >Тернопільська</td>
-                                        <td>1036
-                                        </td>
+                                        <td data-i18n="ternopil">Тернопільська</td>
+                                        <td>1036</td>
                                         <td>851</td>
                                     </tr>
                                     <tr class="region-map">
-                                        <td >Харківська</td>
-                                        <td>2381
-                                        </td>
+                                        <td data-i18n="kharkiv">Харківська</td>
+                                        <td>2381</td>
                                         <td>1937</td>
                                     </tr>
                                     <tr class="region-map">
-                                        <td >Херсонська</td>
-                                        <td>1962
-                                        </td>
+                                        <td data-i18n="kherson">Херсонська</td>
+                                        <td>1962</td>
                                         <td>1780</td>
                                     </tr>
                                     <tr class="region-map">
-                                        <td >Хмельницька</td>
-                                        <td>1561
-                                        </td>
+                                        <td data-i18n="khmelnytskyi">Хмельницька</td>
+                                        <td>1561</td>
                                         <td>1326</td>
                                     </tr>
                                     <tr class="region-map">
-                                        <td >Черкаська</td>
-                                        <td>1450
-                                        </td>
+                                        <td data-i18n="cherkasy">Черкаська</td>
+                                        <td>1450</td>
                                         <td>1272</td>
                                     </tr>
                                     <tr class="region-map">
-                                        <td >Чернівецька</td>
-                                        <td>470
-                                        </td>
+                                        <td data-i18n="chernivtsi">Чернівецька</td>
+                                        <td>470</td>
                                         <td>331</td>
                                     </tr>
                                     <tr class="region-map">
-                                        <td >Чернігівська</td>
-                                        <td>2060
-                                        </td>
+                                        <td data-i18n="chernigiv">Чернігівська</td>
+                                        <td>2060</td>
                                         <td>1456</td>
                                     </tr>
                                     </tbody>
@@ -2274,41 +2047,33 @@ l0.4-0.7h0.7l-1.2,1.9l3.3-0.4l1.1-0.7l1,0.1l0.9-1.5l0.9-0.1L204,42l0.1-1.2l2.9-2
                 <div class="container">
                     <div class="publications-and-patents-wrapper">
                         <div class="publications-and-patents-box">
-                            <h3 class="main-title">
-                                Видання
-                            </h3>
-                            <a class="all-publication" href="./link/directions/edition.html" >Усі видання...</a>
+                            <h3 class="main-title" data-i18n="publications_title">Видання</h3>
+                            <a class="all-publication" href="./link/directions/edition.html" data-i18n="all_publications">Усі видання...</a>
                             <div class="publication-box">
                                 <div class="publication">
-<!--                                    <a href="#" class="publication-link">-->
-                                        <img class="publication-img" src="./img/publication/grunt.jpg" alt="grunt">
-                                        <p class="publication-text">Охорона грунтів</p>
-<!--                                    </a>-->
+                                    <img class="publication-img" src="./img/publication/grunt.jpg" alt="grunt">
+                                    <p class="publication-text" data-i18n="soil_protection">Охорона грунтів</p>
                                 </div>
                                 <div class="publication">
-<!--                                    <a href="#" class="publication-link">-->
-                                        <img class="publication-img" src="./img/publication/science.jpg" alt="grunt">
-                                        <p class="publication-text">Наукові дослідження</p>
-<!--                                    </a>-->
+                                    <img class="publication-img" src="./img/publication/science.jpg" alt="science">
+                                    <p class="publication-text" data-i18n="scientific_research">Наукові дослідження</p>
                                 </div>
                                 <div class="publication">
                                     <a href="#" class="publication-link">
-                                        <img class="publication-img" src="./img/publication/periodic.jpg" alt="grunt">
-                                        <p class="publication-text">Періодична доповідь</p>
+                                        <img class="publication-img" src="./img/publication/periodic.jpg" alt="periodic">
+                                        <p class="publication-text" data-i18n="periodic_report">Періодична доповідь</p>
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <div class="publications-and-patents-box">
-                            <h3 class="main-title">
-                                Патенти
-                            </h3>
-                            <a class="patents-all" href="http://185.249.227.189:3000/patents" > Усі патенти...</a>
+                            <h3 class="main-title" data-i18n="patents_title">Патенти</h3>
+                            <a class="patents-all" href="http://185.249.227.189:3000/patents" data-i18n="all_patents">Усі патенти...</a>
                             <div class="patents-box">
-                                <a class="patents-link" href="http://185.249.227.189:3000/patents/23.pdf">Спосіб обробки насіння люцерни посівної (№ 96573)</a>
-                                <a class="patents-link" href="http://185.249.227.189:3000/patents/96759.pdf">Спосіб вирощування часнику (№ 96759)</a>
-                                <a class="patents-link" href="http://185.249.227.189:3000/patents/97094.pdf">Спосіб підвищення урожайності картоплі (№ 97094)</a>
-                                <a class="patents-link" href="http://185.249.227.189:3000/patents/24.pdf">Спосіб вирощування люцерново-злакової травосумішки (№ 100665)</a>
+                                <a class="patents-link" href="http://185.249.227.189:3000/patents/23.pdf" data-i18n="patent_1">Спосіб обробки насіння люцерни посівної (№ 96573)</a>
+                                <a class="patents-link" href="http://185.249.227.189:3000/patents/96759.pdf" data-i18n="patent_2">Спосіб вирощування часнику (№ 96759)</a>
+                                <a class="patents-link" href="http://185.249.227.189:3000/patents/97094.pdf" data-i18n="patent_3">Спосіб підвищення урожайності картоплі (№ 97094)</a>
+                                <a class="patents-link" href="http://185.249.227.189:3000/patents/24.pdf" data-i18n="patent_4">Спосіб вирощування люцерново-злакової травосумішки (№ 100665)</a>
                             </div>
                         </div>
                     </div>
@@ -2319,56 +2084,48 @@ l0.4-0.7h0.7l-1.2,1.9l3.3-0.4l1.1-0.7l1,0.1l0.9-1.5l0.9-0.1L204,42l0.1-1.2l2.9-2
                 <div class="container">
                     <div class="main-down-wrapper">
                         <div class="info-port main-down-box">
-                            <h3 class="section-title-down">
-                                Інформаційні портали
-                            </h3>
+                            <h3 class="section-title-down" data-i18n="information_portals">Інформаційні портали</h3>
                             <ul class="main-down-list">
                                 <li class="main-down-list-item">
-                                    <a href="https://nsdi.gov.ua/login?redirect=/">Портал геопросторових даних</a>
+                                    <a href="https://nsdi.gov.ua/login?redirect=/" data-i18n="geoportal">Портал геопросторових даних</a>
                                 </li>
                                 <li class="main-down-list-item">
-                                    <a href="https://e.land.gov.ua/">Е-послуги Держгеокадастру</a>
+                                    <a href="https://e.land.gov.ua/" data-i18n="e_services">Е-послуги Держгеокадастру</a>
                                 </li>
                                 <li class="main-down-list-item">
-                                    <a href="https://map.land.gov.ua/?cc=3461340.1719504707,6177585.367221659&z=6.5&l=kadastr&bl=ortho10k_all">Публічна кадастрова карта</a>
+                                    <a href="https://map.land.gov.ua/?cc=3461340.1719504707,6177585.367221659&z=6.5&l=kadastr&bl=ortho10k_all" data-i18n="public_cadastral_map">Публічна кадастрова карта</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="covv main-down-box">
-                            <h3 class="section-title-down">
-                                Відомства та ЦОВВ
-                            </h3>
+                            <h3 class="section-title-down" data-i18n="authorities_and_agencies">Відомства та ЦОВВ</h3>
                             <ul class="main-down-list">
                                 <li class="main-down-list-item">
-                                    <a href="https://land.gov.ua/">Державна служба України з питань геодезії, картографії та кадастру</a>
+                                    <a href="https://land.gov.ua/" data-i18n="geodesy_service">Державна служба України з питань геодезії, картографії та кадастру</a>
                                 </li>
                                 <li class="main-down-list-item">
-                                    <a href="https://darg.gov.ua/">Державне агентство меліорації та рибного господарства України</a>
+                                    <a href="https://darg.gov.ua/" data-i18n="agency_melioration">Державне агентство меліорації та рибного господарства України</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="useful main-down-box">
-                            <h3 class="section-title-down">
-                                Корисні посилання
-                            </h3>
+                            <h3 class="section-title-down" data-i18n="useful_links">Корисні посилання</h3>
                             <ul class="main-down-list">
                                 <li class="main-down-list-item">
-                                    <a href="https://www.president.gov.ua/">Президент України</a>
+                                    <a href="https://www.president.gov.ua/" data-i18n="president_of_ukraine">Президент України</a>
                                 </li>
                                 <li class="main-down-list-item">
-                                    <a href="https://www.kmu.gov.ua/">Урядовий портал</a>
+                                    <a href="https://www.kmu.gov.ua/" data-i18n="government_portal">Урядовий портал</a>
                                 </li>
                                 <li class="main-down-list-item">
-                                    <a href="https://www.rada.gov.ua/">Верховна Рада України</a>
+                                    <a href="https://www.rada.gov.ua/" data-i18n="ukraine_parliament">Верховна Рада України</a>
                                 </li>
                                 <li class="main-down-list-item">
-                                    <a href="https://nads.gov.ua/">Національне агенство України з питань державної служби</a>
+                                    <a href="https://nads.gov.ua/" data-i18n="national_agency">Національне агенство України з питань державної служби</a>
                                 </li>
-
                                 <li class="main-down-list-item">
-                                    <a href="https://minagro.gov.ua/">Міністерство аграрної політики та продовольства України</a>
+                                    <a href="https://minagro.gov.ua/" data-i18n="ministry_agriculture">Міністерство аграрної політики та продовольства України</a>
                                 </li>
-
                             </ul>
                         </div>
                     </div>
@@ -2377,7 +2134,6 @@ l0.4-0.7h0.7l-1.2,1.9l3.3-0.4l1.1-0.7l1,0.1l0.9-1.5l0.9-0.1L204,42l0.1-1.2l2.9-2
             </section>
         </div>
     </main>
-
 
     <footer id="footer">
         <div class="container">
@@ -2432,11 +2188,279 @@ l0.4-0.7h0.7l-1.2,1.9l3.3-0.4l1.1-0.7l1,0.1l0.9-1.5l0.9-0.1L204,42l0.1-1.2l2.9-2
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/i18next@21.8.7/dist/umd/i18next.min.js"></script>
+
+    <script>
+        const savedLanguage = localStorage.getItem('language') || 'uk';
+
+        function setActiveLanguageButton(language) {
+            // Видаляємо клас "active" з обох кнопок
+            document.getElementById('ukButton').classList.remove('active');
+            document.getElementById('enButton').classList.remove('active');
+
+            // Додаємо клас "active" до активної кнопки
+            if (language === 'uk') {
+                document.getElementById('ukButton').classList.add('active');
+            } else {
+                document.getElementById('enButton').classList.add('active');
+            }
+        }
 
 
+        i18next.init({
+            lng: savedLanguage,
+            resources: {
+                uk: {
+                    translation: {
+                        title: 'Інститут Охорони Ґрунтів України',
+                        h_title: 'ДЕРЖАВНА УСТАНОВА',
+                        h_title2: 'ІНСТИТУТ ОХОРОНИ ҐРУНТІВ УКРАЇНИ',
+                        state_websites: 'Державні сайти',
+                        vision_text: `${'Людям із  порушенням зору'}`,
+                        hotline: 'Урядова гаряча лінія',
+                        hotline_text: 'Гаряча лінія',
+                        about: 'Про нас',
+                        history: 'Історія створення',
+                        activity: 'Діяльність',
+                        leadership: 'Керівництво',
+                        regulation: 'Положення',
+                        structure: 'Структура',
+                        anthem: 'Гімн установи',
+                        directions: 'Напрями',
+                        soil_partnership: 'Українське ґрунтове партнерство',
+                        land_survey: 'Обстеження сільськогосподарських угідь',
+                        monitoring: 'Моніторинг об\'єктів довкілля',
+                        edition: 'Видання',
+                        international_activity: 'Міжнародна діяльність',
+                        government_procurement: 'Державні закупівлі',
+                        npa: 'НПА',
+                        branches_of_du: 'Центри ДУ',
+                        press_center: 'Прес-центр',
+                        glory_to_ukraine: 'Слава Україні! Героям Слава!',
+                        support_ukraine: 'Підтримайте Україну перекажіть гроші для ЗСУ!',
+                        glory_nation: 'Слава нації! Смерть ворогам!',
+                        join_national_assembly: 'Приєднуйтесь до національного збору',
+                        news: 'Новини',
+                        photo_gallery: 'Фотогалерея',
+                        contacts: 'Контакти',
+                        page_title: 'Інститут Охорони Ґрунтів України',
+                        agrochemical_survey: 'Агрохімічне обстеження грунтів',
+                        land_works: 'Землевпорядні роботи',
+                        fertilizer_analysis: 'Аналіз якісного складу добрив та агрохімікатів',
+                        quality_safety: 'Дослідження якості й безпеки с/г продукції',
+                        precision_agriculture_title: 'Точне землеробство — новий',
+                        precision_agriculture_subtitle: 'стандарт ефективності',
+                        order_service_button: 'Замовити послугу',
+                        latest_news_title: 'Останні новини',
+                        all_news: 'Усі новини...',
+                        meeting_with_japanese_delegation: 'Зустріч з японською делегацією щодо впровадження нанобульбошкових технологій',
+                        agricultural_department_meeting: 'Участь у виїзному засіданні колегії Департаменту агропромислового розвитку Вінницької ОВА',
+                        soil_damage_training: 'Навчання з оцінки пошкоджених ґрунтів',
+                        online_meeting_soil_use: 'Фахівці ДУ «Держґрунтохорона» взяли участь в онлайн нараді щодо інтегрованого землекористування',
+                        agronomy_education_program: 'Фахівці ДУ «Держґрунтохорона» взяли участь в обговоренні освітньої програми «Агрономія»',
+                        women_day_congratulation: 'Зі святом весни та краси, дорогі жінки! 💐',
+                        soil_protection_technologies_conference: 'Міжнародна конференція з ґрунтозахисних технологій',
+                        carbon_farming_in_poltava: 'Вуглецеве землеробство на Полтавщині',
+                        announcements_title: 'Анонси',
+                        conference_1: '4 грудня 2024 року - Всеукраїнська науково-практична конференція «Реалії імплементації нітратної директиви ЄС»',
+                        conference_2: '25 липня 2024 - Міжнародна науково-практична конференція «Моніторинг ґрунтів»',
+                        innovative_technology: 'Інноваційна технологія для високої врожайності',
+                        resource_savings: 'та економії ресурсів!',
+                        du_centers_title: 'Центри ДУ',
+                        information_by_region: 'Інформація по області',
+                        region: 'Область',
+                        land_area: 'Угіддя тис. га',
+                        plow_land: 'Рілля тис. га',
+                        soil_protection: 'Охорона грунтів',
+                        scientific_research: 'Наукові дослідження',
+                        periodic_report: 'Періодична доповідь',
+                        publications_title: 'Видання',
+                        all_publications: 'Усі видання...',
+                        patents_title: 'Патенти',
+                        all_patents: 'Усі патенти...',
+                        patent_1: 'Спосіб обробки насіння люцерни посівної (№ 96573)',
+                        patent_2: 'Спосіб вирощування часнику (№ 96759)',
+                        patent_3: 'Спосіб підвищення урожайності картоплі (№ 97094)',
+                        patent_4: 'Спосіб вирощування люцерново-злакової травосумішки (№ 100665)',
+                        crimea: 'АР Крим',
+                        vinnytsia: 'Вінницька',
+                        volyn: 'Волинська',
+                        dnepropetrovsk: 'Дніпропетровська',
+                        donetsk: 'Донецька',
+                        zhytomyr: 'Житомирська',
+                        zakarpattia: 'Закарпатська',
+                        zaporizhzhia: 'Запорізька',
+                        ivano_frankivsk: 'Івано-Франківська',
+                        kyiv: 'Київська',
+                        kirovograd: 'Кіровоградська',
+                        luhansk: 'Луганська',
+                        lviv: 'Львівська',
+                        mykolaiv: 'Миколаївська',
+                        odesa: 'Одеська',
+                        poltava: 'Полтавська',
+                        rivno: 'Рівненська',
+                        sumy: 'Сумська',
+                        ternopil: 'Тернопільська',
+                        kharkiv: 'Харківська',
+                        kherson: 'Херсонська',
+                        khmelnytskyi: 'Хмельницька',
+                        cherkasy: 'Черкаська',
+                        chernivtsi: 'Чернівецька',
+                        chernigiv: 'Чернігівська',
+                        information_portals: 'Інформаційні портали',
+                        geoportal: 'Портал геопросторових даних',
+                        e_services: 'Е-послуги Держгеокадастру',
+                        public_cadastral_map: 'Публічна кадастрова карта',
+                        authorities_and_agencies: 'Відомства та ЦОВВ',
+                        geodesy_service: 'Державна служба України з питань геодезії, картографії та кадастру',
+                        agency_melioration: 'Державне агентство меліорації та рибного господарства України',
+                        useful_links: 'Корисні посилання',
+                        president_of_ukraine: 'Президент України',
+                        government_portal: 'Урядовий портал',
+                        ukraine_parliament: 'Верховна Рада України',
+                        national_agency: 'Національне агенство України з питань державної служби',
+                        ministry_agriculture: 'Міністерство аграрної політики та продовольства України'
+                    }
+                },
+                en: {
+                    translation: {
+                        title: 'Institute of Soil Protection of Ukraine',
+                        h_title: 'STATE INSTITUTION OF',
+                        h_title2: 'SOIL PROTECTION OF UKRAINE',
+                        state_websites: 'State Websites',
+                        vision_text: 'For people with visual impairments',
+                        hotline: 'Government Hotline',
+                        hotline_text: 'Hotline',
+                        about: 'About Us',
+                        history: 'History of Creation',
+                        activity: 'Activity',
+                        leadership: 'Leadership',
+                        regulation: 'Regulation',
+                        structure: 'Structure',
+                        anthem: 'Institution Anthem',
+                        directions: 'Directions',
+                        soil_partnership: 'Ukrainian Soil Partnership',
+                        land_survey: 'Land Survey of Agricultural Lands',
+                        monitoring: 'Environmental Monitoring Objects',
+                        edition: 'Editions',
+                        international_activity: 'International Activity',
+                        government_procurement: 'Government Procurement',
+                        npa: 'NPA',
+                        branches_of_du: 'DU Centers',
+                        press_center: 'Press Center',
+                        glory_to_ukraine: 'Glory to Ukraine! Glory to the Heroes!',
+                        support_ukraine: 'Support Ukraine, transfer money for the Armed Forces!',
+                        glory_nation: 'Glory to the nation! Death to the enemies!',
+                        join_national_assembly: 'Join the national assembly',
+                        news: 'News',
+                        photo_gallery: 'Photo Gallery',
+                        contacts: 'Contacts',
+                        page_title: 'Institute of Soil Protection of Ukraine',
+                        agrochemical_survey: 'Agrochemical survey of soils',
+                        land_works: 'Land management works',
+                        fertilizer_analysis: 'Analysis of the qualitative composition of fertilizers and agrochemicals',
+                        quality_safety: 'Research on the quality and safety of agricultural products',
+                        precision_agriculture_title: 'Precision agriculture — a new',
+                        precision_agriculture_subtitle: 'efficiency standard',
+                        order_service_button: 'Order service',
+                        latest_news_title: 'Latest news',
+                        all_news: 'All news...',
+                        meeting_with_japanese_delegation: 'Meeting with the Japanese delegation on the implementation of nanobubble technologies',
+                        agricultural_department_meeting: 'Participation in the off-site meeting of the Department of Agricultural Development of Vinnytsia OVA',
+                        soil_damage_training: 'Training on soil damage assessment',
+                        online_meeting_soil_use: 'Specialists of the State Soil Protection Service participated in the online meeting on integrated land use',
+                        agronomy_education_program: 'Specialists of the State Soil Protection Service participated in the discussion of the “Agronomy” educational program',
+                        women_day_congratulation: 'Happy spring and beauty day, dear women! 💐',
+                        soil_protection_technologies_conference: 'International conference on soil protection technologies',
+                        carbon_farming_in_poltava: 'Carbon farming in Poltava region',
+                        announcements_title: 'Announcements',
+                        conference_1: 'December 4, 2024 - All-Ukrainian scientific-practical conference “Realities of implementing the EU Nitrate Directive”',
+                        conference_2: 'July 25, 2024 - International scientific-practical conference “Soil monitoring”',
+                        innovative_technology: 'Innovative technology for high yields',
+                        resource_savings: 'and resource savings!',
+                        du_centers_title: 'DU Centers',
+                        information_by_region: 'Information by Region',
+                        region: 'Region',
+                        land_area: 'Land Area (thousand ha)',
+                        plow_land: 'Plowed Land (thousand ha)',
+                        soil_protection: 'Soil Protection',
+                        scientific_research: 'Scientific Research',
+                        periodic_report: 'Periodic Report',
+                        publications_title: 'Publications',
+                        all_publications: 'All Publications...',
+                        patents_title: 'Patents',
+                        all_patents: 'All Patents...',
+                        patent_1: 'Method of treating alfalfa seed (№ 96573)',
+                        patent_2: 'Method of growing garlic (№ 96759)',
+                        patent_3: 'Method of increasing potato yield (№ 97094)',
+                        patent_4: 'Method of growing alfalfa-grass mixture (№ 100665)',
+                        crimea: 'Crimea',
+                        vinnytsia: 'Vinnytsia',
+                        volyn: 'Volyn',
+                        dnepropetrovsk: 'Dnipropetrovsk',
+                        donetsk: 'Donetsk',
+                        zhytomyr: 'Zhytomyr',
+                        zakarpattia: 'Zakarpattia',
+                        zaporizhzhia: 'Zaporizhzhia',
+                        ivano_frankivsk: 'Ivano-Frankivsk',
+                        kyiv: 'Kyiv',
+                        kirovograd: 'Kirovohrad',
+                        luhansk: 'Luhansk',
+                        lviv: 'Lviv',
+                        mykolaiv: 'Mykolaiv',
+                        odesa: 'Odesa',
+                        poltava: 'Poltava',
+                        rivno: 'Rivne',
+                        sumy: 'Sumy',
+                        ternopil: 'Ternopil',
+                        kharkiv: 'Kharkiv',
+                        kherson: 'Kherson',
+                        khmelnytskyi: 'Khmelnytskyi',
+                        cherkasy: 'Cherkasy',
+                        chernivtsi: 'Chernivtsi',
+                        chernigiv: 'Chernihiv',
+                        information_portals: 'Information Portals',
+                        geoportal: 'Geospatial Data Portal',
+                        e_services: 'E-Services of the State GeoCadastre',
+                        public_cadastral_map: 'Public Cadastral Map',
+                        authorities_and_agencies: 'Authorities and Central Government Bodies',
+                        geodesy_service: 'State Service of Ukraine for Geodesy, Cartography, and Cadastre',
+                        agency_melioration: 'State Agency of Melioration and Fisheries of Ukraine',
+                        useful_links: 'Useful Links',
+                        president_of_ukraine: 'President of Ukraine',
+                        government_portal: 'Government Portal',
+                        ukraine_parliament: 'Verkhovna Rada of Ukraine',
+                        national_agency: 'National Agency of Ukraine for Public Service',
+                        ministry_agriculture: 'Ministry of Agrarian Policy and Food of Ukraine'
+                    }
+                }
+            }
+        },
+            function(err, t) {
+            setActiveLanguageButton(savedLanguage);
+            updateContent();
+        });
 
+        function updateContent() {
+            document.querySelectorAll('[data-i18n]').forEach(function(element) {
+                const key = element.getAttribute('data-i18n');
+                element.innerHTML = i18next.t(key);
+            });
 
+            // Оновлюємо заголовок сторінки
+            document.title = i18next.t('page_title');
+        }
 
+        // Функція для зміни мови
+        function setLanguage(language) {
+            i18next.changeLanguage(language, function(err, t) {
+                updateContent();
+                // Зберігаємо вибір мови в localStorage
+                localStorage.setItem('language', language);
+                setActiveLanguageButton(language); // Встановлюємо активну кнопку при зміні мови
+            });
+        }
+    </script>
 
     <script src="./scripts/swiper-bundle.min.js"></script>
     <script src="./scripts/swiper.js"></script>
