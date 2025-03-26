@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9cf08c6-f1f3-4abd-aa3c-960a8c81f59d" name="Changes" comment="added news jika">
+    <list default="true" id="d9cf08c6-f1f3-4abd-aa3c-960a8c81f59d" name="Changes" comment="fix lang btn">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -293,7 +292,7 @@
       <workItem from="1742494829244" duration="17000" />
       <workItem from="1742765521790" duration="3670000" />
       <workItem from="1742846489481" duration="4756000" />
-      <workItem from="1742918923502" duration="7490000" />
+      <workItem from="1742918923502" duration="8500000" />
     </task>
     <task id="LOCAL-00001" summary="added lieder page and photo gallery">
       <option name="closed" value="true" />
@@ -575,7 +574,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742889621887</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="added lang for main page">
+      <option name="closed" value="true" />
+      <created>1742928190280</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1742928190280</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,8 +616,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ОБҐРУНТУВАННЯ ТЕХНІЧНИХ ТА ЯКІСНИХ ХАРАКТЕРИСТИК ПРЕДМЕТА ЗАКУПІВЛІ, РОЗМІРУ БЮДЖЕТНОГО ПРИЗНАЧЕННЯ, ОЧІКУВАНОЇ ВАРТОСТІ ПРЕДМЕТА ЗАКУПІВЛІ" />
-    <MESSAGE value="added news" />
     <MESSAGE value="added anons" />
     <MESSAGE value="added special edition" />
     <MESSAGE value="improve 07_11_2024" />
@@ -634,7 +639,9 @@
     <MESSAGE value="change info in branches" />
     <MESSAGE value="added new news" />
     <MESSAGE value="added news jika" />
-    <option name="LAST_COMMIT_MESSAGE" value="added news jika" />
+    <MESSAGE value="added lang for main page" />
+    <MESSAGE value="fix lang btn" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix lang btn" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
