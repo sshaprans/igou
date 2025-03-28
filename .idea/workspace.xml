@@ -5,8 +5,739 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9cf08c6-f1f3-4abd-aa3c-960a8c81f59d" name="Changes" comment="fix lang btn">
+      <change afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gimn.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/directions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ground_partner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/history/photo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/history/photo1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/history/photo2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/history/photo2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/history/photo3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/history/photo3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/history/photo4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/history/photo4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/history/photo5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/history/photo5.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/history/photo6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/history/photo6.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/leader/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/leader/1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/leader/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/leader/2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/leader/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/leader/3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/leader/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/leader/4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/leader/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/leader/5.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/leader/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/leader/6.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bg/bg_book.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/documents/chernivtsi2024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/documents/dnipro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/documents/dnipro_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/documents/hmelik.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/documents/odesa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/documents/poltava.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/documents/ternopil.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/documents/volin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/documents/zapor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/documents/zhito.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/history/cherkasi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/history/chernihiv.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/history/chernivtsi.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/history/dnipro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/history/donesk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/history/hmelik.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/history/kharkiv.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/history/kherson.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/history/lugansk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/history/lviv.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/history/mikol.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/history/odesa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/history/poltava.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/history/qrim+.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/history/qrim.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/history/qrim2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/history/qrim_full-s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/history/qrim_full-s_2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/history/sumy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/history/ternopil.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/history/vinic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/history/zakarpati.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/history/zapor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/history/zhito.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/avatar_m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/avatar_w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/chercasi_glav-buh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/cherckasi_der.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/chernigiv_der.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/chernivci_der.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/dnipro_der.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/dnipro_gol-buh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/dnipro_gol-engen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/herson_der.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/hmelnik_der.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/hmelnik_gol-buh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/hmelnik_nach-vid.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/iv_frank_acco.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/iv_frank_der.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/iv_frank_engen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/iv_frank_laba.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/krop_director.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/krop_economist.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/lvil_der.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/odesa_der.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/poltava_der.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/rivne_glavbug.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/rivne_vo-dev.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/rivne_zav-man.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/rivne_zav-woman.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/sumi_der.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/ternopil_der.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/ternopil_zast.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/vinisa_der.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/vinisa_gol-buh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/vinisa_gol-engen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/volin_director.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/zapor_der.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/zapor_nauk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/branches/staff/zhito_der.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/chabani.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/chabani2024.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/edition/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/edition/1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/edition/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/edition/2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/edition/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/edition/3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/edition/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/edition/4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/edition/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/edition/periodically.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/edition/research.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/edition/soil_protection.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/land_survey/1(2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/land_survey/1(3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/land_survey/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/land_survey/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/land_survey/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/land_survey/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/land_survey/map/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/land_survey/map/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/land_survey/map/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/land_survey/map/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/land_survey/map/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/land_survey/map/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/land_survey/map/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/land_survey/map/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/land_survey/map/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/land_survey/map/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/land_survey/map/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/land_survey/map/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/land_survey/map/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/monitoring_objects/graph.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/monitoring_objects/ukr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/directory/monitoring_objects/ukr.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ground_partner/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ground_partner/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ground_partner/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ground_partner/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ground_partner/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ground_partner/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ground_partner/grunt_partner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ground_partner/main_img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ground_partner/main_img_mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo_svg.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/02_10_2023.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/02_10_2023.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/04.12.23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/04.12.23.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/05.12.23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/05.12.23.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/06_02_2024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/151223_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/151223_1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/151223_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/151223_2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/151223_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/151223_3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/02_04_2024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/02_04_2024_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/02_04_2024_.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/02_04_2024_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/05_07_2024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/05_07_2024_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/05_07_2024_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/05_12_2024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/06_10_2024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/06_12_2024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/06_12_2024_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/06_12_2024_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/12_06_2024(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/12_06_2024(2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/12_06_2024(3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/12_06_2024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/12_08_2024-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/12_08_2024-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/12_08_2024-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/12_08_2024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/12_11_2024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/12_11_2024.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/12_11_2024_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/12_11_2024_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/12_11_2024_2_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/12_11_2024_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/12_11_2024_3_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/12_12_2024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/12_12_2024_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/15_02_2024(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/15_02_2024(1).webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/15_02_2024(2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/15_02_2024(2).webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/15_02_2024(3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/15_02_2024(3).webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/15_02_2024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/15_02_2024.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/15_04_2024(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/15_04_2024(2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/15_04_2024_1(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/15_04_2024_1(2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/15_04_2024_1(3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/15_04_2024_1(4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/15_11_2024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/17_06_2024_slide.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/18_07_2024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/18_10_2024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/18_10_2024_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/19_06_2024_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/19_06_2024_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/19_06_2024_slide.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/19_08_2024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/19_08_2024_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/19_08_2024_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/20_02_2024(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/20_02_2024(1).webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/20_02_2024(2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/20_02_2024(2).webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/20_02_2024(3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/20_02_2024(3).webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/21_10_2024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/21_10_2024_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/22-05-2024(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/22-05-2024(2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/22-05-2024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/22_10_2024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/22_10_2024_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/22_10_2024_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/23_05_2024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/24_11_2024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/24_11_2024_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/25(2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/25_09_2024-1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/25_09_2024-1_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/25_09_2024-1_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/25_09_2024-1_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/25_09_2024-2_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/25_09_2024-2_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/25_09_2024-2_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/25_11_2024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/25_11_2024.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/25_12_2024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/26_07_2024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/26_08_2024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/26_08_2024_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/28_03_24(1).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/28_03_24(2).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/28_03_24(3).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/29_04_2024_magzine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/29_04_2024_swiper.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/29_05_2024(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/29_05_2024(2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/29_10_2024_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/29_10_2024_1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/29_10_2024_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/29_10_2024_2_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/30-06-2024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/30-50-2024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/30_09_2024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/31_05_24_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/31_05_24_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/31_05_24_slide.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/31_12_2024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/structure__nakaz.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/structure__structure.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/Оголошення конкурсу Степаненко.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2024/умови Степаненко.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2025/09_03_2025.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2025/10_02_2025.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2025/10_03_2025.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2025/10_03_2025_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2025/12_03_2025.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2025/12_03_2025_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2025/22_03_2024_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2025/22_03_2024_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2025/22_03_2024_main.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2025/23_03_2025_1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2025/23_03_2025_2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2025/23_03_2025_main.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2025/24_02_2025.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2025/24_02_2025_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2025/24_03_2025_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2025/24_03_2025_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2025/24_03_2025_main.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/21-12-23-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/21-12-23-1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/21-12-23-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/21-12-23-2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/21-12-23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/21-12-23.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/23-25.10.23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/23-25.10.23.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/24.10.23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/24.10.23.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2_5.10.23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/2_5.10.23.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/30.09-04.10_2023.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/30.09-04.10_2023.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/9-11.10.23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/magazine-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/magazine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/magazine.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/magazine0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/magazine0.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/nakaz68.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/nakaz68.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/teb.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/teb.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/teb1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/teb1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/teb2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/teb2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/teb3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/magazine/teb3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2016/1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2016/1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2016/2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2016/2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2016/3.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2016/3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2016/4.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2016/4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2016/5.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2016/5.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2016/6.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2016/6.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2017/1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2017/1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2017/2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2017/2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2017/3.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2017/3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2017/4.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2017/4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2017/5.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2017/5.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2017/6.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2017/6.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2018/1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2018/1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2018/2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2018/2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2018/3.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2018/3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2018/4.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2018/4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2018/5.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2018/5.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2018/6.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2018/6.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2020/1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2020/1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2020/2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2020/2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2020/3.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2020/3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2020/4.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2020/4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2021/1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2021/1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2021/2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2021/2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2021/3.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2021/3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2021/4.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/agro-2021/4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/10.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/11.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/12.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/13.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/14.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/15.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/16.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/17.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/18.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/19.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/20.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/21.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/22.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/23.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/24.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/4.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/5.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/5.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/6.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/6.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/7.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/8.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/conference/9.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/photo_events/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/photo_events/1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/photo_events/17_2014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/photo_events/17_2014.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/photo_events/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/photo_events/2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/photo_events/22_2014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/photo_events/22_2014.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/photo_events/29_2014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/photo_events/29_2014.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/photo_events/3.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/photo_events/3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/photo_events/31_2014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/photo_events/31_2014.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/photo_events/4.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/photo_events/4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/photo_events/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/photo_events/5.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/photo_events/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/photo_events/6.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/photo_events/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/photo_events/7.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/photo_events/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/photo_events/8.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Давня історія/33.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Давня історія/Волинь 1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Давня історія/Волинь 2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Давня історія/Волинь 3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Давня історія/Відгон азоту в кормах. Біля апарату Кьєльдаля, 1973 р..jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Давня історія/Львів Визначення цукристості цукрових буряків.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Давня історія/Львів Токсиколого-радіологічна група.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Давня історія/Суми 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Давня історія/ФОТО 12.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Давня історія/прац_вники анал_тично_ групи (Коряжк_на М.М., Бажан Г. В., Яцковська С. Ю.)  визначення азоту 1974 р..jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Дні поля/IMG_7493.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Дні поля/P70630-102437 день поля єврохім 2017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Дні поля/Житомир-укр-нім.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Дні поля/Кіровоград день поля 2018.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Дні поля/Кіровоград-День-поля-2017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Дні поля/Кіровоград-День-поля-2018.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Дні поля/Суми-День-поля-2016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Дні поля/Херсон день поля 2018.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Дні поля/Херсон-День-поля-2018.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Дні поля/Чернігів день поля 2017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Дні поля/Чернігів-День-поля-2018.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Дні поля/день поля київ 2017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Співробітництво/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Співробітництво/CAM01142 конф. 16.10.14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Співробітництво/DSC_1440.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Співробітництво/DSC_1519.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Співробітництво/DSC_1702.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Співробітництво/DSC_1721.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Співробітництво/DSC_18231.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Співробітництво/DSC_9160.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Співробітництво/Чернівці 2018.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Співробітництво/Чернівці-Румунія.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Співробітництво/зїзд грунтознавців 2014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_gallery/Співробітництво/нубіп роботодавці.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/publication/grunt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/publication/motod5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/publication/periodic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/publication/science.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sale_block.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sale_block_mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sale_page_grass_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sale_page_grass_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sale_page_laba.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sale_page_laba_mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sale_page_main.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sale_page_main_mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sale_page_mid.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sale_page_mid_mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sale_page_mid_mobile_last.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/servise.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/stage1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/stage2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/stage3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/structure/structure.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/structure/structure.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/swiper/1st.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/swiper/2st.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/swiper/3st.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/swiper/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/swiper/workshop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/zvit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Без назви-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ифсл.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/about/activity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/about/anthem.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/about/history.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/about/leadership.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/about/position.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/about/structure.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/cherkasy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/chernigiv.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/chernivtsi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/dnipro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/donetsk.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/harkiv.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/herson.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/hmelnutskiy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/ivanofrakivsk.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/kirovograd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/luhansk.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/lviv.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/mukolaiv.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/odesa.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/poltava.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/qrım.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/rivne.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/shablon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/sumy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/ternopil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/vinnytsia.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/volhynia.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/zakarpata.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/zaporizha.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches/zhytomer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/branches_of_du.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/contacts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/directions/edition.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/directions/government_procurement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/directions/international_activity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/directions/land_survey.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/directions/monitoring_objects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/directions/zvit.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/npa.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/press_center/announcements.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/press_center/events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/press_center/magazines/magazine_2023.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/press_center/magazines/magazine_2024.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/press_center/magazines/magazine_2025.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/press_center/news.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/press_center/news.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/press_center/photo_gallery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/1/1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/1/1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/1/passport.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/1/passport.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/1/square1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/1/square1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/2/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/2/2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/2/land.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/2/land.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/2/square2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/2/square2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/3/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/3/1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/3/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/3/2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/3/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/3/4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/3/square3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/3/square3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/4/1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/4/1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/4/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/4/2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/4/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/4/3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/4/4.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/4/square4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/square/4/square4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/11_10_2024.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/branches/chernivtsi2024.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/branches/dnipro.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/branches/dnipro_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/branches/hmelik.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/branches/odesa.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/branches/poltava.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/branches/ternopil.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/branches/volin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/branches/zapor.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/branches/zhito.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/download/conrefencia9_6_23.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/download/zaproshennya5_7_23.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2022/10_17_11_2022.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2022/1_31_01_2022.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2022/2_07_02_2022.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2022/3_08_02_2022.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2022/4_14_02_2022.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2022/5_22_02_2022.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2022/6_11_07_2022.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2022/7_23_08_2022.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2022/8_16_09_2022.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2022/9_26_10_2022.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2023/10.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2023/11.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2023/12.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2023/13.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2023/14.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2023/15.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2023/16.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2023/17.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2023/18Обгрунтування_бензин_А_95,_нафтовий_газ_скраплений.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2023/19Обгрунтування природний газ.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2023/1_15_03_2023.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2023/20Обгрунтування_технічних_та_якісних_характеристик_електричної_енергії.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2023/2_05_04_2023.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2023/3_16_05_2023.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2023/4_08_06_2023.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2023/5_15_06_2023.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2023/6.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2023/7.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2023/8.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2023/9.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2024/04_03_2024(1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2024/04_03_2024(2).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2024/04_03_2024(3).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2024/07_02_2024.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2024/07_11_2024.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2024/08_10_2024.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2024/12_06_2024.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2024/12_08_2024.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2024/13_11_2024.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2024/14_03_24.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2024/16_04_2024.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2024/18_04_2024_1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2024/19_09_2024.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2024/19_09_2024_1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2024/20_02_2024.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2024/20_05_2024.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2024/20_05_2024.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2024/21_10_2024.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2024/23_10_2024.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2024/23_10_2024_1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2024/invite25.07.2024.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/govern_2024/Обгрунтування_на_сайт_Івано_Франківськ.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/gp/Global_Soil-Partnership.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/gp/zvit.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/gp/Методичні рекомендації.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/gp/УТҐА.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/gp/Хімічна меліорація кислих грунтів 06.07,2020.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/gp/монографія 2023 verstka_malynovska_topress.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/instructions/1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/instructions/2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/instructions/3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/instructions/4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/instructions/Визначення_бору_в_добривах_та_органогенних_ґрунтах.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/magazine/03_10_23.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/magazine/04.12.2023teb.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/magazine/2024/08_10_2024.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/magazine/2024/08_10_2024.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/magazine/2024/19_08_2024_1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/magazine/2024/19_08_2024_2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/magazine/2024/30_09_2024.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/magazine/23-25.10.23.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/magazine/24.10.23.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/magazine/9-11.10.23.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/mamorandum/2021меморандум Асоціація Українське Грунтове Партнерство.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/mamorandum/2022-1меморандум Інститут агроекології і прриродокористування НААН.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/mamorandum/2022-2Меморандум Державний біотехнологічний університет.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/mamorandum/2022-3Меморандум про співпрацю з національним науковим центром Інститут землеробства НААН.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/mamorandum/2022-4Мемрандум з УкрНДІПВТ ім. Л.Погорілого.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/mamorandum/2023-1договір про співпрацю з ВСП Камянець-подільського фахового коледжу закладу вищої освіти Подільський державний університет.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/mamorandum/2023-2Меморандум про співпрацю з Інститутом тваринництва Національної академії аграрних наук України.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/mamorandum/2023-3Меморандум про співпрацю з Полтавським державним аграрним університетом.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/mamorandum/2023-4Меморандум про співпраю з Національним музеєм Голодомиру-геноциду.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/mamorandum/2024-1Договір про співпрацю з ВСП Камянець-подільський фаховий коледж харчової промисловості.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/mamorandum/2024-2Договір про співпрацю з Західноукраїнським національним університетом.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/mamorandum/2024-3Договір про співпрацю з Тернопільським національним технічним університетом імені Івана Пулюя.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/mamorandum/2024-4Договір про співпрцю з Відокремленим підрозділом НУБІП Бережанський інститут.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/mamorandum/2024-5Меморандум про співпрацю з Асоціацією RETURN.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/mamorandum/2024-6Меморандум про співпрацю з Центром досконалості протимінної діяльності та екологічної безпеки.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/periodically/1_2010.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/periodically/2_2015.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/periodically/3_2020.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/policy.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/position_file.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/research/1-Наукові дослідження з моніторингу та обстеження сільськогосподарських угідь України за результатами 10 туру (2011-2015 рр.), 2017.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/research/2-Наукові дослідження з моніторингу та обстеження сільськогосподарських угідь України за результатами 10 туру (2011-2015 рр.), перевидання 2018.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/research/3-Наукові_дослідження_з_моніторингу_та_обстеження_сільськогосподарських.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/soil/1-Випуск № 1 (2014).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/soil/10-Спеціальний випуск (2019).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/soil/11-Випуск № 10 (2020).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/soil/12-Спеціальний випуск (2020).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/soil/13-Спеціальний випуск (2022).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/soil/14-Випуск № 12 (2022).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/soil/15_Спеціальний_випуск_5_грудня_2022.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/soil/16_Спеціальний_випуск_25_липня_2023.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/soil/2-Спеціальний випуск (2015).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/soil/27_12_2024.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/soil/3-Випуск № 2 (2015).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/soil/4-Випуск № 3 (2016).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/soil/5-Спеціальний випуск (2016).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/soil/6-Випуск № 5 (2017).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/soil/7-Спеціальний випуск (2017).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/soil/8-Випуск № 7 (2018).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/soil/9-Спеціальний випуск (2018).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/soil/special17_04_12_2024.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/soil/Випуск № 15 (2022).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/tech_zvit/1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/tech_zvit/2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature/tech_zvit/3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/policy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/precision_farming.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/press_center.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/edition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/swiper-bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/swiper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/swiperBranches.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/branches.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/gp.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/modal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/swiper-bundle.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/swiper.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/update/assets/img/icon/btn-back.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/icon/btn-back.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update/assets/img/icon/btn-front.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/icon/btn-front.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update/eye.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/eye.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/update/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/logo.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +764,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="full_recoding" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,9 +803,9 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;new__site&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/my_html/all_test&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/my_html/IOGU/first-dp/igou&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -94,12 +825,29 @@
       <recent name="D:\my_html\first-dp\link\square" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\my_html\IOGU\first-dp\igou" />
+      <recent name="D:\my_html\IOGU\first-dp\igou\update" />
+      <recent name="D:\my_html\IOGU\first-dp\igou\update\assets\img" />
       <recent name="D:\my_html\IOGU\first-dp\update" />
       <recent name="D:\my_html\IOGU\first-dp" />
-      <recent name="D:\my_html\IOGU\first-dp\img" />
-      <recent name="D:\my_html\first-dp\link\square\1" />
-      <recent name="D:\first-dp\link" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="sass" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="sass" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.sass" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -293,6 +1041,8 @@
       <workItem from="1742765521790" duration="3670000" />
       <workItem from="1742846489481" duration="4756000" />
       <workItem from="1742918923502" duration="8500000" />
+      <workItem from="1743113916497" duration="312000" />
+      <workItem from="1743202826189" duration="1674000" />
     </task>
     <task id="LOCAL-00001" summary="added lieder page and photo gallery">
       <option name="closed" value="true" />
