@@ -1,0 +1,37 @@
+.card-flipper {
+  display: inline-block;
+  height: 75px;
+  width: 75px;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+  cursor: pointer;
+}
+
+.card {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+}
+
+.card-front {
+  color: white;
+  background-color: #008ACE;
+  font-size: xx-large;
+}
+
+.card-back {
+  color: #222222;
+  background-color: #CEDB56;
+  transform: rotateY(180deg);
+}
+
+.card-flipper:hover {
+  transform: rotateY(180deg);
+}
+
+h1 {
+  color: blue;
+}
+
+/*# sourceMappingURL=styles.css.map */
